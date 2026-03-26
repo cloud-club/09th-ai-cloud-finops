@@ -1,0 +1,12 @@
+{
+  "username": "do-dop",
+  "week": 3,
+  "level": "L1",
+  "seed": 931358173,
+  "scenarios": [
+    "L1-001",
+    "L1-002",
+    "L1-012"
+  ],
+  "company": "FinCore"
+}

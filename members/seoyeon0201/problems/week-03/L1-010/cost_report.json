@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-010",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 4203.28,
+      "services": [
+        {
+          "service": "DynamoDB",
+          "spend_usd": 739.4
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 4219.78,
+      "services": [
+        {
+          "service": "DynamoDB",
+          "spend_usd": 576.72
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 4370.47,
+      "services": [
+        {
+          "service": "DynamoDB",
+          "spend_usd": 695.82
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 4167.9,
+      "services": [
+        {
+          "service": "DynamoDB",
+          "spend_usd": 629.57
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 4381.74,
+      "services": [
+        {
+          "service": "DynamoDB",
+          "spend_usd": 739.57
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 4448.86,
+      "services": [
+        {
+          "service": "DynamoDB",
+          "spend_usd": 679.66
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 4298.67,
+    "pricing_note": "미사용 WCU: 900 × $0.00065/hr × 730hr ≈ $427. 미사용 RCU: 4500 × $0.00013/hr × 730hr ≈ $427. 총 약 $522/mo 낭비 (실사용 대비 초과분)"
+  }
+}

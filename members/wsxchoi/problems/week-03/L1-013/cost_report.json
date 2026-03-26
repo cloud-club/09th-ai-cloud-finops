@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-013",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 2319.66,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 320.58
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 2357.92,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 325.42
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 2354.15,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 330.16
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 2292.14,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 327.8
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 2509.8,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 387.46
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 2460.36,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 407.41
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 2382.34,
+    "pricing_note": "2 × 500 GB × (28 extra days / 30) × $0.095/GB-month ≈ 2 × 500 × 0.933 × $0.095 ≈ $266/mo"
+  }
+}

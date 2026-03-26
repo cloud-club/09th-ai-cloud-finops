@@ -1,0 +1,12 @@
+{
+  "username": "m1cks",
+  "week": 3,
+  "level": "L1",
+  "seed": 970468222,
+  "scenarios": [
+    "L1-005",
+    "L1-008",
+    "L1-012"
+  ],
+  "company": "ContentHub"
+}

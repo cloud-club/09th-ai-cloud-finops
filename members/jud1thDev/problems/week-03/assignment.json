@@ -1,0 +1,12 @@
+{
+  "username": "jud1thDev",
+  "week": 3,
+  "level": "L1",
+  "seed": 120502754,
+  "scenarios": [
+    "L1-003",
+    "L1-006",
+    "L1-013"
+  ],
+  "company": "AppForge"
+}

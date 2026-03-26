@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L1-003",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 246.45,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 22.85
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 223.6
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 260.68,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 21.86
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 238.82
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 256.39,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 23.35
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 233.04
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 278.29,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 20.55
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 257.74
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 242.03,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 23.38
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 218.65
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 250.23,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 24.78
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 225.45
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 255.68,
+    "pricing_note": "$0.005/hr × 730hr × 5 EIP = $18.25/mo"
+  }
+}

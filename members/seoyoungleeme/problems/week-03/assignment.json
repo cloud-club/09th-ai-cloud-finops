@@ -1,0 +1,12 @@
+{
+  "username": "seoyoungleeme",
+  "week": 3,
+  "level": "L1",
+  "seed": 648230721,
+  "scenarios": [
+    "L1-004",
+    "L1-007",
+    "L1-012"
+  ],
+  "company": "CargoNet"
+}

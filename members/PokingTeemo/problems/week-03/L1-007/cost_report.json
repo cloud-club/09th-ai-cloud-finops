@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L1-007",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 1031.62,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 130.14
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 901.48
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1128.32,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 118.02
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1010.3
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1060.2,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 135.17
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 925.03
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1088.41,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 142.67
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 945.74
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1065.51,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 150.1
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 915.41
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1024.34,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 151.64
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 872.7
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1066.4,
+    "pricing_note": "EBS 스냅샷: 2TB × $0.05/GB = $100/mo"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-002",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 513.47,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 60.07
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 507.83,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 59.63
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 461.27,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 47.47
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 449.27,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 42.85
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 521.23,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 46.94
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 500.45,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 55.99
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 492.25,
+    "pricing_note": "gp2 $0.10/GB vs gp3 $0.08/GB → 차이 $0.02/GB × 200GB × 10 = $40/mo"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-012",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 1573.08,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 238.66
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1457.45,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 337.88
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1471.69,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 335.54
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1490.75,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 313.96
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1559.98,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 225.72
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1554.15,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 308.54
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1517.85,
+    "pricing_note": "10 TB noncurrent × $0.023/GB = 10,240 GB × $0.023 ≈ $235 → ~$230/mo"
+  }
+}
