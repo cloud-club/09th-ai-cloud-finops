@@ -113,3 +113,6 @@ https://github.com/smtg-ai/claude-squad
 + 
 26 — 여러 AI 계정 스위칭 툴 및 오케스트레이션 툴
 https://github.com/asheshgoplani/agent-deck
+
+27 — AI 도구 현황 및 랭킹? 트랜드? 확인
+https://www.vibeindex.ai/
