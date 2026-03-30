@@ -108,5 +108,17 @@
     "files": [
       "[박진형] 멀티 LLM을 다룰 수 있는 궁극의 MCP 만들어보기 (1)_compressed.pdf"
     ]
+  },
+  {
+    "id": "1774832532097-dev-jiseok",
+    "title": "Week 3 참고 자료 — L1 미사용/낭비 리소스 비용 최적화",
+    "author": "dev-jiseok",
+    "date": "2026-03-30T00:42:12.097Z",
+    "week": "3",
+    "category": "note",
+    "description": "3주차 L1 문제 풀이에 도움이 되는 AWS 비용 최적화 참고 자료 모음",
+    "files": [
+      "study-materials.md"
+    ]
   }
 ]
