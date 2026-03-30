@@ -231,19 +231,26 @@ async function loadScenario(week, username, scenarioId, tabEl) {
 function renderCostReport(data) {
   if (!data.monthly_data) return '<p>No data</p>';
 
-  let html = `<table><thead><tr><th>Month</th><th>Total ($)</th><th>Waste ($)</th><th>%</th></tr></thead><tbody>`;
+  // Build service columns from first month's data
+  const serviceNames = (data.monthly_data[0]?.services || []).map(s => s.service);
+
+  let html = `<table><thead><tr><th>Month</th><th>Total ($)</th>`;
+  for (const svc of serviceNames) {
+    html += `<th>${escapeHtml(svc)} ($)</th>`;
+  }
+  html += `</tr></thead><tbody>`;
 
   for (const m of data.monthly_data) {
-    const wastePct = m.waste_pct || 0;
-    const color = wastePct > 10 ? 'var(--red)' : wastePct > 5 ? 'var(--orange)' : 'var(--green)';
     html += `
       <tr>
         <td>${m.label}</td>
-        <td>$${m.total_spend_usd.toLocaleString('en-US', { minimumFractionDigits: 2 })}</td>
-        <td style="color:${color};font-weight:500;">$${m.waste_usd.toLocaleString('en-US', { minimumFractionDigits: 2 })}</td>
-        <td style="color:${color};font-weight:500;">${wastePct.toFixed(1)}%</td>
-      </tr>
-    `;
+        <td>$${m.total_spend_usd.toLocaleString('en-US', { minimumFractionDigits: 2 })}</td>`;
+    for (const svc of serviceNames) {
+      const svcData = (m.services || []).find(s => s.service === svc);
+      const spend = svcData ? svcData.spend_usd : 0;
+      html += `<td>$${spend.toLocaleString('en-US', { minimumFractionDigits: 2 })}</td>`;
+    }
+    html += `</tr>`;
   }
 
   html += '</tbody></table>';
@@ -251,8 +258,7 @@ function renderCostReport(data) {
   if (data.summary) {
     html += `
       <div style="margin-top:14px; padding-top:14px; border-top:1px solid var(--border-light); font-size:13px; color:var(--text-muted); display:flex; gap:20px;">
-        <span>Avg Total: <strong style="color:var(--text);">$${data.summary.avg_monthly_total?.toFixed(2) || '-'}</strong></span>
-        <span>Avg Waste: <strong style="color:var(--red);">$${data.summary.avg_monthly_waste?.toFixed(2) || '-'}</strong></span>
+        <span>Avg Monthly Total: <strong style="color:var(--text);">$${data.summary.avg_monthly_total?.toFixed(2) || '-'}</strong></span>
       </div>
     `;
   }
