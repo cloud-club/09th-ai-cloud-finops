@@ -1,0 +1,49 @@
+{
+  "week": 2,
+  "level": "L1",
+  "graded_at": "2026-04-02",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "seoyoungleeme",
+      "total": 95,
+      "max_total": 100,
+      "percentage": 95
+    },
+    {
+      "rank": 2,
+      "username": "wsxchoi",
+      "total": 92,
+      "max_total": 100,
+      "percentage": 92
+    },
+    {
+      "rank": 3,
+      "username": "PokingTeemo",
+      "total": 75,
+      "max_total": 100,
+      "percentage": 75
+    },
+    {
+      "rank": 4,
+      "username": "do-dop",
+      "total": 72,
+      "max_total": 100,
+      "percentage": 72
+    },
+    {
+      "rank": 5,
+      "username": "jud1thDev",
+      "total": 60,
+      "max_total": 100,
+      "percentage": 60
+    },
+    {
+      "rank": 6,
+      "username": "m1cks",
+      "total": 55,
+      "max_total": 100,
+      "percentage": 55
+    }
+  ]
+}

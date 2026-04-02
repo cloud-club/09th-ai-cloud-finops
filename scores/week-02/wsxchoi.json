@@ -1,0 +1,22 @@
+{
+  "username": "wsxchoi",
+  "week": 2,
+  "level": "L1",
+  "total": 92,
+  "max_total": 100,
+  "percentage": 92,
+  "scenarios": {
+    "L1-007": {
+      "total": 92,
+      "max_total": 100,
+      "percentage": 92,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 20,
+        "propose_solution": 25,
+        "estimate_savings": 17
+      },
+      "feedback": "우수. orphaned 스냅샷 200개를 정확히 식별(SourceVolumeStatus=deleted). 근본 원인과 메트릭 교차 분석 포함. 절감액 ~$100/mo 정확히 일치. solution.tf에서 DLM lifecycle policy + IAM role 추가한 것이 인상적. 10개 active 스냅샷 올바르게 유지하고 태깅 개선까지 수행."
+    }
+  }
+}

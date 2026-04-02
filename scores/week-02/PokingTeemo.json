@@ -1,0 +1,22 @@
+{
+  "username": "PokingTeemo",
+  "week": 2,
+  "level": "L1",
+  "total": 75,
+  "max_total": 100,
+  "percentage": 75,
+  "scenarios": {
+    "L1-001": {
+      "total": 75,
+      "max_total": 100,
+      "percentage": 75,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 20,
+        "estimate_savings": 9
+      },
+      "feedback": "EBS 3개 볼륨을 정확히 식별하고 report.md에서 근본 원인(중지된 인스턴스 + EBS 계속 과금) 잘 분석함. CPU 0.56% 사용률 지적도 좋음. solution.tf에서 gp2→gp3 전환 + 인스턴스 다운사이징(m5.xlarge→t3.medium)은 문제 범위를 넘어서는 추가 최적화로 좋은 시도. 다만 절감액 $260은 정답 $150 대비 과대 추정 (73% 초과)."
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "username": "jud1thDev",
+  "week": 2,
+  "level": "L1",
+  "total": 60,
+  "max_total": 100,
+  "percentage": 60,
+  "scenarios": {
+    "L1-012": {
+      "total": 60,
+      "max_total": 100,
+      "percentage": 60,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 10,
+        "propose_solution": 25,
+        "estimate_savings": 0
+      },
+      "feedback": "solution.tf가 잘 작성됨 — prod/staging 모두 lifecycle 설정하고, prod는 noncurrent 30일, staging은 7일로 차등 적용한 것이 좋음. expired_object_delete_marker 처리도 포함. 다만 분석 리포트가 없어서 근본 원인 분석과 절감액 추정을 확인할 수 없음. 리포트 제출 필수."
+    }
+  }
+}

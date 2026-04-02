@@ -1,0 +1,34 @@
+{
+  "username": "seoyoungleeme",
+  "week": 3,
+  "level": "L1",
+  "total": 170,
+  "max_total": 200,
+  "percentage": 85,
+  "scenarios": {
+    "L1-004": {
+      "total": 88,
+      "max_total": 100,
+      "percentage": 88,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 18,
+        "propose_solution": 25,
+        "estimate_savings": 15
+      },
+      "feedback": "dev RDS 2개(db-instance-0p5pam, db-instance-fgvel1)의 Multi-AZ 문제를 정확히 식별. production 인스턴스는 올바르게 유지. Multi-AZ 비활성화 + db.r5.large→db.t3.large 다운사이징까지 제안한 것은 좋은 추가 분석. 다만 절감액 $502.24는 다운사이징 포함 수치로, 문제 핵심인 Multi-AZ만의 절감액($350.40)과 구분 필요."
+    },
+    "L1-007": {
+      "total": 82,
+      "max_total": 100,
+      "percentage": 82,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 18,
+        "propose_solution": 22,
+        "estimate_savings": 12
+      },
+      "feedback": "orphaned 스냅샷 200개와 active 10개를 정확히 구분. solution.tf에서 active 스냅샷만 유지하고 DLM 정책 추가. CLI bulk delete 명령어와 Terraform state 관리까지 포함한 리포트가 실전적. 절감액 $126.68은 정답 $100 대비 약간 과대 추정."
+    }
+  }
+}

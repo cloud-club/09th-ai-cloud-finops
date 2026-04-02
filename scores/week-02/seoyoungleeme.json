@@ -1,0 +1,22 @@
+{
+  "username": "seoyoungleeme",
+  "week": 2,
+  "level": "L1",
+  "total": 95,
+  "max_total": 100,
+  "percentage": 95,
+  "scenarios": {
+    "L1-005": {
+      "total": 95,
+      "max_total": 100,
+      "percentage": 95,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 20,
+        "propose_solution": 27,
+        "estimate_savings": 18
+      },
+      "feedback": "매우 우수. 미사용 ALB 2개(lb-4dzo8v, lb-ucc4pu)를 정확히 식별하고, main.tf/metrics.json/cost_report.json 교차 분석 수행. 근본 원인(리스너/타겟 그룹 없이 프로비저닝) 정확히 파악. 절감액 $32.86은 정답 $32.85와 거의 일치. solution.tf에서 deletion_protection 추가 등 예방 조치도 포함. 교과서적인 분석."
+    }
+  }
+}

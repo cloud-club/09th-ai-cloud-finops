@@ -1,0 +1,22 @@
+{
+  "username": "wsxchoi",
+  "week": 3,
+  "level": "L1",
+  "total": 62,
+  "max_total": 100,
+  "percentage": 62,
+  "scenarios": {
+    "L1-007": {
+      "total": 62,
+      "max_total": 100,
+      "percentage": 62,
+      "scores": {
+        "identify_problem": 20,
+        "identify_root_cause": 15,
+        "propose_solution": 15,
+        "estimate_savings": 12
+      },
+      "feedback": "orphaned 스냅샷 문제를 전반적으로 파악했으나, 210개 전체를 orphaned로 분류한 것이 핵심 감점 요인. 실제로는 10개는 SourceVolumeStatus=exists인 active 스냅샷. solution.tf에서 210개 전부 삭제한 것은 정상 리소스까지 제거하는 오류. DLM 정책 추가 제안은 좋음. 분석 리포트의 구성과 서술은 우수하나, decoy 구분 실패가 아쉬움."
+    }
+  }
+}

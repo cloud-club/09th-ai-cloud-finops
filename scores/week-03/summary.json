@@ -1,0 +1,21 @@
+{
+  "week": 3,
+  "level": "L1",
+  "graded_at": "2026-04-02",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "seoyoungleeme",
+      "total": 170,
+      "max_total": 200,
+      "percentage": 85
+    },
+    {
+      "rank": 2,
+      "username": "wsxchoi",
+      "total": 62,
+      "max_total": 100,
+      "percentage": 62
+    }
+  ]
+}

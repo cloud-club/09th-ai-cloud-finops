@@ -1,0 +1,22 @@
+{
+  "username": "do-dop",
+  "week": 2,
+  "level": "L1",
+  "total": 72,
+  "max_total": 100,
+  "percentage": 72,
+  "scenarios": {
+    "L1-012": {
+      "total": 72,
+      "max_total": 100,
+      "percentage": 72,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 18,
+        "propose_solution": 20,
+        "estimate_savings": 9
+      },
+      "feedback": "prod 버킷(s3-bucket-p98ab1)의 lifecycle 미설정 문제를 정확히 식별. NoncurrentVersionExpiration 30일 + abort multipart upload 7일 해결책 적절. 다만 staging 버킷을 solution.tf에서 아예 제거한 것은 감점 요인 — decoy 리소스도 유지해야 함. 절감액 $240.26은 정답 $230 대비 약간 과대 추정."
+    }
+  }
+}
