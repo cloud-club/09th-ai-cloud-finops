@@ -1,0 +1,12 @@
+{
+  "id": "1775128042489-dev-jiseok",
+  "title": "claude 토큰 절약",
+  "author": "dev-jiseok",
+  "date": "2026-04-02T11:07:22.489Z",
+  "week": "general",
+  "category": "other",
+  "description": "https://github.com/drona23/claude-token-efficient\n\nhttps://github.com/rtk-ai/rtk",
+  "files": [
+    "content.md"
+  ]
+}
