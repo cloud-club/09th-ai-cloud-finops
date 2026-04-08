@@ -1,0 +1,12 @@
+{
+  "username": "m1cks",
+  "week": 4,
+  "level": "L1",
+  "seed": 1874490296,
+  "scenarios": [
+    "L1-003",
+    "L1-004",
+    "L1-011"
+  ],
+  "company": "PlayForge"
+}

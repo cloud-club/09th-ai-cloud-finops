@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L1-001",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 1224.37,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 192.91
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1031.46
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1307.9,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 202.36
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1105.54
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1220.48,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 196.56
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1023.92
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1424.47,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 219.26
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1205.21
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1260.33,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 221.22
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1039.11
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1406.5,
+      "services": [
+        {
+          "service": "EBS",
+          "spend_usd": 185.62
+        },
+        {
+          "service": "EC2",
+          "spend_usd": 1220.88
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1307.34,
+    "pricing_note": "gp2 500GB × 3 × $0.10/GB = $150/mo. 인스턴스 자체는 stopped 상태라 컴퓨트 비용 없음."
+  }
+}

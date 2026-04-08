@@ -1,0 +1,12 @@
+{
+  "username": "dev-jiseok",
+  "week": 4,
+  "level": "L1",
+  "seed": 496402279,
+  "scenarios": [
+    "L1-001",
+    "L1-005",
+    "L1-013"
+  ],
+  "company": "ShopWave"
+}

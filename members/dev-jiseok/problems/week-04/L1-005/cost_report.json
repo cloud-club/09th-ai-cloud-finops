@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-005",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 384.31,
+      "services": [
+        {
+          "service": "ELB",
+          "spend_usd": 41.03
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 433.58,
+      "services": [
+        {
+          "service": "ELB",
+          "spend_usd": 49.78
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 425.28,
+      "services": [
+        {
+          "service": "ELB",
+          "spend_usd": 36.96
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 412.01,
+      "services": [
+        {
+          "service": "ELB",
+          "spend_usd": 37.83
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 396.81,
+      "services": [
+        {
+          "service": "ELB",
+          "spend_usd": 48.63
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 403.97,
+      "services": [
+        {
+          "service": "ELB",
+          "spend_usd": 45.69
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 409.33,
+    "pricing_note": "ALB 고정 비용: $0.0225/hr × 730hr × 2 = $32.85/mo (LCU 비용 제외, 트래픽 0)"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-006",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 872.99,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 183.29
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 786.07,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 144.83
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 803.13,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 197.73
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 784.06,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 193.58
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 781.23,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 180.38
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 846.76,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 145.38
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 812.37,
+    "pricing_note": "누적 약 4.8TB 스토리지 × $0.03/GB = $144/mo (보존 정책 적용 시 대폭 감소)"
+  }
+}

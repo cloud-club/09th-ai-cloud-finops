@@ -1,0 +1,12 @@
+{
+  "username": "seoyeon0201",
+  "week": 4,
+  "level": "L1",
+  "seed": 461341628,
+  "scenarios": [
+    "L1-006",
+    "L1-008",
+    "L1-012"
+  ],
+  "company": "PulseAI"
+}

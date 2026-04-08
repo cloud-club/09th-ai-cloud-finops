@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L1-004",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 3101.26,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 501.71
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 2858.59,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 376.07
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 2820.19,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 456.8
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 2930.54,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 424.42
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 3025.87,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 395.25
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 2981.91,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 465.74
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 2953.06,
+    "pricing_note": "Multi-AZ 추가 비용: 2 × $0.24/hr × 730hr = $350.4/mo (Single-AZ 전환 시 절감액)"
+  }
+}

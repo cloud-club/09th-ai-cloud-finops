@@ -1,0 +1,12 @@
+{
+  "username": "do-dop",
+  "week": 4,
+  "level": "L1",
+  "seed": 266094686,
+  "scenarios": [
+    "L1-001",
+    "L1-006",
+    "L1-012"
+  ],
+  "company": "CartFusion"
+}

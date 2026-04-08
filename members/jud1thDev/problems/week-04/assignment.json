@@ -1,0 +1,12 @@
+{
+  "username": "jud1thDev",
+  "week": 4,
+  "level": "L1",
+  "seed": 875514410,
+  "scenarios": [
+    "L1-005",
+    "L1-010",
+    "L1-012"
+  ],
+  "company": "StreamVault"
+}
