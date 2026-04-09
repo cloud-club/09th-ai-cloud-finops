@@ -19,10 +19,17 @@
     },
     {
       "rank": 3,
+      "username": "do-dop",
+      "total": 222,
+      "max_total": 300,
+      "percentage": 74
+    },
+    {
+      "rank": 4,
       "username": "wsxchoi",
-      "total": 62,
-      "max_total": 100,
-      "percentage": 62
+      "total": 222,
+      "max_total": 300,
+      "percentage": 74
     }
   ]
 }

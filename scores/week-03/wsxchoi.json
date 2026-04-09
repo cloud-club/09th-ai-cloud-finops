@@ -2,9 +2,9 @@
   "username": "wsxchoi",
   "week": 3,
   "level": "L1",
-  "total": 62,
-  "max_total": 100,
-  "percentage": 62,
+  "total": 222,
+  "max_total": 300,
+  "percentage": 74,
   "scenarios": {
     "L1-007": {
       "total": 62,
@@ -16,7 +16,31 @@
         "propose_solution": 15,
         "estimate_savings": 12
       },
-      "feedback": "orphaned 스냅샷 문제를 전반적으로 파악했으나, 210개 전체를 orphaned로 분류한 것이 핵심 감점 요인. 실제로는 10개는 SourceVolumeStatus=exists인 active 스냅샷. solution.tf에서 210개 전부 삭제한 것은 정상 리소스까지 제거하는 오류. DLM 정책 추가 제안은 좋음. 분석 리포트의 구성과 서술은 우수하나, decoy 구분 실패가 아쉬움."
+      "feedback": "orphaned 스냅샷 문제를 파악했으나 210개 전체를 orphaned로 분류. active 10개(SourceVolumeStatus=exists)를 구분 못하고 전부 삭제한 것이 핵심 감점."
+    },
+    "L1-010": {
+      "total": 78,
+      "max_total": 100,
+      "percentage": 78,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 18,
+        "estimate_savings": 14
+      },
+      "feedback": "DynamoDB 과잉 프로비저닝(RCU 2%, WCU 10% 사용) 정확히 식별. Auto Scaling 적용은 올바른 방향. 다만 decoy(PAY_PER_REQUEST)를 PROVISIONED로 변경한 것은 오류 — On-Demand가 더 적합한 안정적 워크로드일 수 있음. 절감액 $1,013은 decoy 변경 포함이라 과대."
+    },
+    "L1-013": {
+      "total": 82,
+      "max_total": 100,
+      "percentage": 82,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 18,
+        "propose_solution": 20,
+        "estimate_savings": 14
+      },
+      "feedback": "backup_retention 35→7일 변경 정확. 절감액 $266/mo 정답 일치. r5→r6g Graviton 마이그레이션 추가 제안은 문제 범위 초과지만 좋은 시도. decoy 인스턴스(backup_retention=7) 올바르게 유지."
     }
   }
 }

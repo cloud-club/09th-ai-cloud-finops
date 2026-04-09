@@ -1,0 +1,46 @@
+{
+  "username": "do-dop",
+  "week": 3,
+  "level": "L1",
+  "total": 222,
+  "max_total": 300,
+  "percentage": 74,
+  "scenarios": {
+    "L1-001": {
+      "total": 68,
+      "max_total": 100,
+      "percentage": 68,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 15,
+        "propose_solution": 18,
+        "estimate_savings": 10
+      },
+      "feedback": "중지된 인스턴스 + EBS 3개 식별은 맞으나, solution.tf에서 EBS를 삭제하지 않고 gp2→gp3로 전환만 한 것이 문제. 핵심은 사용하지 않는 EBS 볼륨 삭제(또는 스냅샷 후 삭제)임. 절감액 $345.84는 정답 $150 대비 과대 — 중지된 인스턴스는 컴퓨팅 비용 $0이므로 $315.84는 오류."
+    },
+    "L1-002": {
+      "total": 88,
+      "max_total": 100,
+      "percentage": 88,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 20,
+        "propose_solution": 22,
+        "estimate_savings": 16
+      },
+      "feedback": "gp2 10개 정확히 식별, gp3로 전환. decoy 5개 올바르게 유지. IOPS 사용량 분석(88-90, gp3 baseline 3000 충분)이 좋음. 절감액 $40/mo 정답 일치. iops/throughput 명시적 설정도 적절."
+    },
+    "L1-012": {
+      "total": 66,
+      "max_total": 100,
+      "percentage": 66,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 15,
+        "propose_solution": 18,
+        "estimate_savings": 8
+      },
+      "feedback": "noncurrent version 누적 문제 파악은 맞음. 양 버킷에 lifecycle 추가한 것은 좋으나, current version까지 Glacier로 전환하는 것은 문제 범위 초과이며 자주 접근하는 데이터라면 오히려 비용 증가 위험. 절감액 $180.50은 정답 $230 대비 과소."
+    }
+  }
+}
