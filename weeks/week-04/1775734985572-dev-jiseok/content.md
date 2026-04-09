@@ -1,0 +1,1 @@
+https://aws.amazon.com/ko/blogs/tech/yanolja-aiops-strands-agent-on-agentcore/
