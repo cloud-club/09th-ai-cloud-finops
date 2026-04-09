@@ -1,0 +1,46 @@
+{
+  "username": "PokingTeemo",
+  "week": 4,
+  "level": "L1",
+  "total": 228,
+  "max_total": 300,
+  "percentage": 76,
+  "scenarios": {
+    "L1-004": {
+      "total": 82,
+      "max_total": 100,
+      "percentage": 82,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 18,
+        "propose_solution": 25,
+        "estimate_savings": 9
+      },
+      "feedback": "dev RDS 2개의 Multi-AZ 문제를 정확히 식별, production은 올바르게 유지. RI 구매 제안은 문제 범위 초과지만 좋은 시도. 절감액 $1,235는 RI 포함 수치로, 핵심 문제인 Multi-AZ만의 절감($350.40)과 크게 차이남."
+    },
+    "L1-006": {
+      "total": 85,
+      "max_total": 100,
+      "percentage": 85,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 18,
+        "propose_solution": 25,
+        "estimate_savings": 12
+      },
+      "feedback": "8개 무제한 보존 Log Group 정확히 식별, 90일 retention 설정으로 해결. 기존 90일 설정 2개는 올바르게 유지. 절감액 $50은 정답 $144 대비 과소 추정."
+    },
+    "L1-007": {
+      "total": 61,
+      "max_total": 100,
+      "percentage": 61,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 15,
+        "propose_solution": 12,
+        "estimate_savings": 9
+      },
+      "feedback": "orphaned 200개 스냅샷 식별은 정확하나, solution.tf에서 active 스냅샷 10개 중 1개만 유지하고 9개를 삭제한 것이 문제. 정상 리소스(SourceVolumeStatus=exists)는 전부 유지해야 함. 절감액 $200은 정답 $100 대비 2배 과대."
+    }
+  }
+}

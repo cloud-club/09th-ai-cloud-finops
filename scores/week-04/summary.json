@@ -1,0 +1,28 @@
+{
+  "week": 4,
+  "level": "L1",
+  "graded_at": "2026-04-09",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "do-dop",
+      "total": 248,
+      "max_total": 300,
+      "percentage": 83
+    },
+    {
+      "rank": 2,
+      "username": "PokingTeemo",
+      "total": 228,
+      "max_total": 300,
+      "percentage": 76
+    },
+    {
+      "rank": 3,
+      "username": "wsxchoi",
+      "total": 193,
+      "max_total": 300,
+      "percentage": 64
+    }
+  ]
+}

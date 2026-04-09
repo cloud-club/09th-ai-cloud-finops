@@ -1,0 +1,46 @@
+{
+  "username": "wsxchoi",
+  "week": 4,
+  "level": "L1",
+  "total": 193,
+  "max_total": 300,
+  "percentage": 64,
+  "scenarios": {
+    "L1-006": {
+      "total": 55,
+      "max_total": 100,
+      "percentage": 55,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 12,
+        "propose_solution": 10,
+        "estimate_savings": 8
+      },
+      "feedback": "8개 무제한 Log Group 식별은 맞으나, 정상적인 90일 retention 그룹 2개를 '제거' 추천한 것이 오류. solution.tf에서 count로 리소스를 묶어서 원래 리소스 이름과 매칭이 안 됨 — 실제 적용 시 기존 리소스 삭제/재생성 위험. 절감액 $45는 정답 $144 대비 과소."
+    },
+    "L1-009": {
+      "total": 62,
+      "max_total": 100,
+      "percentage": 62,
+      "scores": {
+        "identify_problem": 22,
+        "identify_root_cause": 15,
+        "propose_solution": 15,
+        "estimate_savings": 10
+      },
+      "feedback": "lifecycle 미설정 ECR 3개를 식별했으나, 해결책이 '삭제'인 것이 문제 — 정답은 lifecycle policy 추가(예: 최신 10개만 유지). 사용 중인 repo를 삭제하면 서비스 장애 발생. storage_limit은 유효하지 않은 Terraform 속성."
+    },
+    "L1-011": {
+      "total": 76,
+      "max_total": 100,
+      "percentage": 76,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 18,
+        "estimate_savings": 12
+      },
+      "feedback": "S3 Lifecycle 미설정 문제를 파악하고 Intelligent Tiering/Glacier 전환 제안은 방향이 맞음. 다만 3개 버킷을 1개로 통합하는 것은 과도한 변경 — 기존 구조 유지하며 lifecycle만 추가하는 것이 안전. iam_policy data 블록 오류. 절감액 $102는 정답 $152 대비 과소."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "username": "do-dop",
+  "week": 4,
+  "level": "L1",
+  "total": 248,
+  "max_total": 300,
+  "percentage": 83,
+  "scenarios": {
+    "L1-001": {
+      "total": 80,
+      "max_total": 100,
+      "percentage": 80,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 22,
+        "estimate_savings": 12
+      },
+      "feedback": "중지된 m5.xlarge + EBS 3개를 정확히 식별하고 제거. decoy 인스턴스 2개 올바르게 유지. PDF 분석에서 인스턴스 비용($140)과 EBS 비용($150)을 분리 분석한 것이 좋음. 다만 중지된 인스턴스는 컴퓨팅 비용이 없으므로 $140은 과대 — 핵심 절감은 EBS $150/mo."
+    },
+    "L1-006": {
+      "total": 88,
+      "max_total": 100,
+      "percentage": 88,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 20,
+        "propose_solution": 25,
+        "estimate_savings": 13
+      },
+      "feedback": "8개 무제한 Log Group 정확히 식별, retention_in_days = 30으로 설정. 올바른 Terraform 속성명 사용(retention_in_days). 기존 90일 그룹 유지. 절감액 $129.60은 정답 $144 대비 약간 과소하나 합리적 범위."
+    },
+    "L1-012": {
+      "total": 80,
+      "max_total": 100,
+      "percentage": 80,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 22,
+        "estimate_savings": 12
+      },
+      "feedback": "S3 noncurrent version 누적 문제 정확히 식별. 양 버킷에 lifecycle 설정 추가(noncurrent_days=30). 절감액 $230 정답 일치. Week 2 때 staging 버킷 누락했던 것을 이번엔 개선 — 성장이 보임."
+    }
+  }
+}

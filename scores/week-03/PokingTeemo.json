@@ -1,0 +1,22 @@
+{
+  "username": "PokingTeemo",
+  "week": 3,
+  "level": "L1",
+  "total": 82,
+  "max_total": 100,
+  "percentage": 82,
+  "scenarios": {
+    "L1-002": {
+      "total": 82,
+      "max_total": 100,
+      "percentage": 82,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 18,
+        "propose_solution": 22,
+        "estimate_savings": 12
+      },
+      "feedback": "gp2 볼륨 10개를 정확히 식별하고 gp3로 전환. decoy gp3 5개 올바르게 유지. 15개 리소스 전부 보존하면서 문제 리소스만 수정한 것이 좋음. 절감액 $40/mo는 정답과 일치. 다만 report에서 메트릭 분석이 다소 얕음."
+    }
+  }
+}

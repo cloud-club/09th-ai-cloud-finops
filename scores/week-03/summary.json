@@ -1,7 +1,7 @@
 {
   "week": 3,
   "level": "L1",
-  "graded_at": "2026-04-02",
+  "graded_at": "2026-04-09",
   "leaderboard": [
     {
       "rank": 1,
@@ -12,6 +12,13 @@
     },
     {
       "rank": 2,
+      "username": "PokingTeemo",
+      "total": 82,
+      "max_total": 100,
+      "percentage": 82
+    },
+    {
+      "rank": 3,
       "username": "wsxchoi",
       "total": 62,
       "max_total": 100,
