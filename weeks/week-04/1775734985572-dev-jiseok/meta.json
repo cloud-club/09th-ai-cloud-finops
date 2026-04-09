@@ -1,0 +1,12 @@
+{
+  "id": "1775734985572-dev-jiseok",
+  "title": "야놀자의 Strands SDK와 Bedrock AgentCore를 활용한 AIOps Agent 구축 사례",
+  "author": "dev-jiseok",
+  "date": "2026-04-09T11:43:05.572Z",
+  "week": "4",
+  "category": "note",
+  "description": "https://aws.amazon.com/ko/blogs/tech/yanolja-aiops-strands-agent-on-agentcore/",
+  "files": [
+    "content.md"
+  ]
+}
