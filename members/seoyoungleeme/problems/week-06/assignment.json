@@ -1,0 +1,16 @@
+{
+  "username": "seoyoungleeme",
+  "week": 6,
+  "level": "L2",
+  "seed": 699284154,
+  "scenarios": [
+    "L2-014",
+    "L2-019",
+    "L2-021"
+  ],
+  "company": "MedCloud",
+  "active_generators": [
+    "business_metrics",
+    "tags_inventory"
+  ]
+}

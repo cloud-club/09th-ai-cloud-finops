@@ -1,0 +1,196 @@
+{
+  "scenario_id": "L2-016",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "ecs-service-f6sqin",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-b2g5v8",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-wqxm6v",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-drifyr",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-129"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-i18plz",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-rt54wc",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-d3o1rh",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-xzqlb1",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-2b28nb",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-hpsxd6",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-525"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-rdk7gr",
+      "resource_type": "aws_ecs_service",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-995",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "ecs-service-17dm51",
+      "resource_type": "aws_ecs_service",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-603",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 12,
+    "tag_coverage_pct": 33.3,
+    "fully_compliant": 2,
+    "non_compliant": 10
+  }
+}

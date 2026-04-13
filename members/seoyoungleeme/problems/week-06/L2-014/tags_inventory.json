@@ -1,0 +1,91 @@
+{
+  "scenario_id": "L2-014",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "lambda-function-192d7g",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-ctcl0s",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-676"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-jfafoa",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Team": "backend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-7fw8rk",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-663",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "lambda-function-q49wt1",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "backend",
+        "Env": "dev",
+        "CostCenter": "CC-367",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 5,
+    "tag_coverage_pct": 52.0,
+    "fully_compliant": 2,
+    "non_compliant": 3
+  }
+}

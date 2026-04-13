@@ -1,0 +1,16 @@
+{
+  "username": "m1cks",
+  "week": 6,
+  "level": "L2",
+  "seed": 1352278755,
+  "scenarios": [
+    "L2-014",
+    "L2-020",
+    "L2-023"
+  ],
+  "company": "RouteX",
+  "active_generators": [
+    "business_metrics",
+    "tags_inventory"
+  ]
+}

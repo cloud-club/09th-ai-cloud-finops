@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-018",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 11225.23,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 1244.0
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 11143.13,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 1246.87
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 10580.77,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 1139.24
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 9990.16,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 1327.45
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 10478.76,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 1182.72
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 10454.71,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 1201.51
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 10645.46,
+    "pricing_note": "Shard 시간당 $0.015. 유휴 90 shards × $0.015 × 730시간 = ~$985/mo. On-Demand 전환 또는 10 shard로 축소 가능."
+  }
+}

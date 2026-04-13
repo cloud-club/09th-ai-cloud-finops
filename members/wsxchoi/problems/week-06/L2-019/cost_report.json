@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-019",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 7659.18,
+      "services": [
+        {
+          "service": "ElastiCache",
+          "spend_usd": 845.4
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 7629.62,
+      "services": [
+        {
+          "service": "ElastiCache",
+          "spend_usd": 993.34
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 7435.46,
+      "services": [
+        {
+          "service": "ElastiCache",
+          "spend_usd": 781.67
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 7905.61,
+      "services": [
+        {
+          "service": "ElastiCache",
+          "spend_usd": 772.86
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 7875.13,
+      "services": [
+        {
+          "service": "ElastiCache",
+          "spend_usd": 1026.93
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 7652.98,
+      "services": [
+        {
+          "service": "ElastiCache",
+          "spend_usd": 709.47
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 7693.0,
+    "pricing_note": "cache.r5.large = $0.228/hr. 초과 4 노드 × $0.228 × 730시간 = ~$665/mo 절감 가능."
+  }
+}

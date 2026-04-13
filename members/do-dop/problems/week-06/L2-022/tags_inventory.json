@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-022",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "kinesis-stream-ptt5ao",
+      "resource_type": "aws_kinesis_stream",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-consumer-1ryu06",
+      "resource_type": "aws_kinesis_stream_consumer",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-769"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-consumer-c7o0vr",
+      "resource_type": "aws_kinesis_stream_consumer",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-r0wzi5",
+      "resource_type": "aws_kinesis_stream",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "platform",
+        "Env": "prod",
+        "CostCenter": "CC-306",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 4,
+    "tag_coverage_pct": 40.0,
+    "fully_compliant": 1,
+    "non_compliant": 3
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-014",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 11493.42,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 739.92
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 10543.94,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 766.49
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 10166.22,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 947.19
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 11268.0,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 877.28
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 11123.46,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 893.73
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 10671.84,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 851.99
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 10877.81,
+    "pricing_note": "Lambda 비용 = 요청 수 + (Duration x 할당 메모리 GB-초). 3008MB → 512MB로 줄이면 함수당 약 $250/mo 절감 (3 함수 합계 $750/mo)."
+  }
+}

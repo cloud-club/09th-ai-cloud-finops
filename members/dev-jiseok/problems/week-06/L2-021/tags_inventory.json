@@ -1,0 +1,121 @@
+{
+  "scenario_id": "L2-021",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "sqs-queue-bup7md",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-ymp8ub",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-840"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-jfhmcg",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-qg64el",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-tlkz8x",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-n693uq",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "data",
+        "Env": "staging",
+        "CostCenter": "CC-698",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "sqs-queue-smn92i",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-893",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 7,
+    "tag_coverage_pct": 42.9,
+    "fully_compliant": 2,
+    "non_compliant": 5
+  }
+}

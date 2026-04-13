@@ -1,0 +1,47 @@
+{
+  "scenario_id": "L2-017",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "autoscaling-group-h128pu",
+      "resource_type": "aws_autoscaling_group",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "autoscaling-group-d89t0e",
+      "resource_type": "aws_autoscaling_group",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "infra",
+        "Env": "prod",
+        "CostCenter": "CC-179",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 2,
+    "tag_coverage_pct": 60.0,
+    "fully_compliant": 1,
+    "non_compliant": 1
+  }
+}

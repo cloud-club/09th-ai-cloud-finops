@@ -1,0 +1,3718 @@
+{
+  "scenario_id": "L2-024",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "cloudwatch-metric-alarm-6c50ex",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-yoo4wc",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1g77ki",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-914"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ecquel",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-mvgn29",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ok2thr",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-47kg63",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-281"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-6m2dyv",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-338"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ypvokd",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-nwjp7q",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-368"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-q083zl",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ruhkti",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-849"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-c6siyz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-326"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-wm104p",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-b5eg2c",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-420"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-vpx9qp",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-346"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-scrk8e",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bkx80w",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-b8ncvm",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-le430y",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-q643dl",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ckxpag",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-55u62f",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-qeb21d",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-m6a4lp",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-331"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-pr0vxm",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-x91srt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-392"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ke3n0l",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ygd7jp",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-huqpsp",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ws9wny",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-zf8m0r",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-438"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ga44x4",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-v6o91i",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-577"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-q3c641",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-hbkb6l",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-251"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-oct39q",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-228"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-014kad",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-iddu4e",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ij2ulg",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-3c7lv9",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-i6apjj",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-v0otmi",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-688"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-jrgvql",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-959"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-w993iy",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-fe3go4",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-slyd2k",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-272"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-7sfr0n",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-60e0jy",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-38zb51",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-s5emu1",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1pwpen",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-7s21bn",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-glygqq",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-44otvz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-vu5pgr",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-eowt07",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-156"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-pw7mek",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-30f39j",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-3xit3y",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-m7es8a",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-3oqwig",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-550"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-o9bn07",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-wgq912",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-sg82gt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-pz5akk",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-rrfyno",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-zf7fpe",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-u6no7j",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-742"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-m6qe00",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ahx0jx",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-r44303",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-hf1aju",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-2e2y7w",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-w1biq5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "backend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-xr9vpa",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-xenwr6",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-187"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-uff8rv",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-uj54id",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-758"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-iicblj",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-q6hqnj",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-484"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0ic9c1",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-761"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0dt8fj",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0dzzcz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-147"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1ndxnw",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-31zjjt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-hiv5nn",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-203"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-dwp59b",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bq039m",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-7qs2d5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-5fir4l",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-rfftdf",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-jk5dz8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-s9lpdv",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-uqdiv1",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-824"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-q0q5f1",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "backend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-oymsl2",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-nf1lsu",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-186"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ic2zur",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-d3ckdq",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-nm1wo2",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-820"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-4qjmo8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-7u0u0q",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-nqhhor",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-97aaxb",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-n3k4q7",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-a0m4mn",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-698"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-96qvy5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-2rhdem",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-h4o2ck",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-489"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-rjb5ul",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-cba32m",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-142"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-rxceiz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-gxiris",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-r1ik86",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-gdu6z7",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-4bjipz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-sv5jnz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-648"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-8wzs7y",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-728"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-xfe2td",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-363"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-dl2ns8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-5tjual",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ues2xj",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-709"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-6adllj",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-gifl2p",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-c70jpt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-989"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-t4axx7",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-799"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ll1ok9",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-hwrai2",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ehi099",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bv9t4f",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bl76w5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-c3yfzo",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-acg6f8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-719"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-obsiy7",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ytbp0o",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-49s0sy",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-seb189",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-3r304v",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-vt14ma",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-sjljeu",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-gfncaw",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-e5cqgs",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-217"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-mux3mq",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1o60cz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ftjyvv",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ao68l3",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-wucvrz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-oh9nz5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-405"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-64y41y",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-2dkeyx",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-mm1doc",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-jre81x",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0shs3v",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-jg50b1",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-283"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-t051tt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-q1rp1y",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-qh9vzx",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-700"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-qav3k5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-cc4y4m",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-511"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-u7ph9e",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-pcaxv2",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-gn41bu",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-o1d1k6",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0i75b9",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-z5avnt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-swgjpq",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-hp4mp8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-uoiv15",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-346"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-26lto4",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-o0b4vv",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-oglt9c",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-218"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-pedegw",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-jxnd7e",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-s7fo7e",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-elp9rg",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1v95g8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-666"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-2tdn7p",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0fji6l",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "data-pipeline"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-lkkbpy",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-uqgy6x",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-lir749",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-tc0rst",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-815"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-6jwr2f",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-w09eyx",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-z13kky",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-4dzl16",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1elc05",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-759"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-au3kmu",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-828"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-pr1w64",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-u6an7m",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-26smgl",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-945"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-f7cw1x",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-simdhr",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-li7eh3",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ltp8sa",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-z8sv35",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-345"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-dxovoc",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-i228qa",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0d95l5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-594"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bk16h5",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "infra",
+        "Env": "dev",
+        "CostCenter": "CC-254",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-dc5jcd",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-502",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-vg6c6n",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "infra",
+        "Env": "dev",
+        "CostCenter": "CC-780",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1rq6yd",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-203",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-yg1ulf",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "platform",
+        "Env": "staging",
+        "CostCenter": "CC-982",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-y4ic9f",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-777",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-fh0k5h",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-391",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-3lkdza",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "infra",
+        "Env": "staging",
+        "CostCenter": "CC-172",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-fo84t3",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-502",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ou6kwe",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "platform",
+        "Env": "dev",
+        "CostCenter": "CC-931",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-4o6dgo",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "backend",
+        "Env": "prod",
+        "CostCenter": "CC-313",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ctk0oz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "platform",
+        "Env": "dev",
+        "CostCenter": "CC-265",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-2aw70y",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-734",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-76demc",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-194",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-hapto4",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-801",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-4pjtsb",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-878",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bi40jg",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-636",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-fsmg8n",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-623",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-y70389",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "backend",
+        "Env": "dev",
+        "CostCenter": "CC-847",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-vihq1n",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-701",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-wqgy32",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-690",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-0ckus8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "infra",
+        "Env": "staging",
+        "CostCenter": "CC-369",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-tbykjx",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-603",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-k946qf",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "platform",
+        "Env": "staging",
+        "CostCenter": "CC-228",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-h7sx5t",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-375",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-dlgeon",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "backend",
+        "Env": "prod",
+        "CostCenter": "CC-539",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-5nmco2",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-995",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ardhac",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "platform",
+        "Env": "prod",
+        "CostCenter": "CC-251",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-g0v7zg",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-903",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ynwvqg",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-405",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-9c999v",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "platform",
+        "Env": "dev",
+        "CostCenter": "CC-459",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-h6m47s",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-925",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-5hi1bn",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "backend",
+        "Env": "prod",
+        "CostCenter": "CC-760",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-w1opq4",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-326",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-iygvcx",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-697",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-9qdpru",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "platform",
+        "Env": "staging",
+        "CostCenter": "CC-358",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-wkwku2",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-900",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-nnkz1n",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-733",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-4e5czt",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "infra",
+        "Env": "dev",
+        "CostCenter": "CC-424",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-1ykayo",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-871",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-fxztzz",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "infra",
+        "Env": "dev",
+        "CostCenter": "CC-663",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-b9ar02",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-658",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-es8ubr",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "platform",
+        "Env": "prod",
+        "CostCenter": "CC-453",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-ezl0yd",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "platform",
+        "Env": "staging",
+        "CostCenter": "CC-481",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-63m7r9",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-877",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-bovl3x",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-916",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-7teksw",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "infra",
+        "Env": "prod",
+        "CostCenter": "CC-371",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-026tw8",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-929",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-69c5sg",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "backend",
+        "Env": "prod",
+        "CostCenter": "CC-180",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "cloudwatch-metric-alarm-abrj68",
+      "resource_type": "aws_cloudwatch_metric_alarm",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "infra",
+        "Env": "dev",
+        "CostCenter": "CC-135",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 250,
+    "tag_coverage_pct": 36.0,
+    "fully_compliant": 50,
+    "non_compliant": 200
+  }
+}

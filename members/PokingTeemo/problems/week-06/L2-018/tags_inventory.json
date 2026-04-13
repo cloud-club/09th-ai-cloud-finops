@@ -1,0 +1,47 @@
+{
+  "scenario_id": "L2-018",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "kinesis-stream-bazqzu",
+      "resource_type": "aws_kinesis_stream",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-207"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-vfrrz5",
+      "resource_type": "aws_kinesis_stream",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-136",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 2,
+    "tag_coverage_pct": 60.0,
+    "fully_compliant": 1,
+    "non_compliant": 1
+  }
+}

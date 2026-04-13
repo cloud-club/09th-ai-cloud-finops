@@ -1,0 +1,47 @@
+{
+  "scenario_id": "L2-019",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "elasticache-replication-group-k1b93b",
+      "resource_type": "aws_elasticache_replication_group",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-709"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "elasticache-replication-group-31362i",
+      "resource_type": "aws_elasticache_replication_group",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "data",
+        "Env": "prod",
+        "CostCenter": "CC-711",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 2,
+    "tag_coverage_pct": 60.0,
+    "fully_compliant": 1,
+    "non_compliant": 1
+  }
+}

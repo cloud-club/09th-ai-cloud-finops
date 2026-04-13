@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-022",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "kinesis-stream-ophpq7",
+      "resource_type": "aws_kinesis_stream",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-consumer-enek25",
+      "resource_type": "aws_kinesis_stream_consumer",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-consumer-gh2uv6",
+      "resource_type": "aws_kinesis_stream_consumer",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "kinesis-stream-7lt9nx",
+      "resource_type": "aws_kinesis_stream",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "platform",
+        "Env": "dev",
+        "CostCenter": "CC-740",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 4,
+    "tag_coverage_pct": 40.0,
+    "fully_compliant": 1,
+    "non_compliant": 3
+  }
+}

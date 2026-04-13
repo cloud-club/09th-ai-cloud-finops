@@ -1,0 +1,16 @@
+{
+  "username": "seoyeon0201",
+  "week": 6,
+  "level": "L2",
+  "seed": 1126642075,
+  "scenarios": [
+    "L2-018",
+    "L2-021",
+    "L2-023"
+  ],
+  "company": "ContentHub",
+  "active_generators": [
+    "business_metrics",
+    "tags_inventory"
+  ]
+}

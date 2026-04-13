@@ -1,0 +1,16 @@
+{
+  "username": "jud1thDev",
+  "week": 6,
+  "level": "L2",
+  "seed": 1180138677,
+  "scenarios": [
+    "L2-015",
+    "L2-018",
+    "L2-022"
+  ],
+  "company": "CashPulse",
+  "active_generators": [
+    "business_metrics",
+    "tags_inventory"
+  ]
+}

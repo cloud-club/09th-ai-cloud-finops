@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L2-016",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 12044.5,
+      "services": [
+        {
+          "service": "ECS",
+          "spend_usd": 626.43
+        },
+        {
+          "service": "Fargate",
+          "spend_usd": 706.14
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 12829.09,
+      "services": [
+        {
+          "service": "ECS",
+          "spend_usd": 537.28
+        },
+        {
+          "service": "Fargate",
+          "spend_usd": 740.4
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 11032.93,
+      "services": [
+        {
+          "service": "ECS",
+          "spend_usd": 551.1
+        },
+        {
+          "service": "Fargate",
+          "spend_usd": 636.17
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 12116.1,
+      "services": [
+        {
+          "service": "ECS",
+          "spend_usd": 572.5
+        },
+        {
+          "service": "Fargate",
+          "spend_usd": 711.69
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 12193.29,
+      "services": [
+        {
+          "service": "ECS",
+          "spend_usd": 711.36
+        },
+        {
+          "service": "Fargate",
+          "spend_usd": 639.99
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 11376.48,
+      "services": [
+        {
+          "service": "ECS",
+          "spend_usd": 655.27
+        },
+        {
+          "service": "Fargate",
+          "spend_usd": 713.47
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 11932.07,
+    "pricing_note": "Fargate 비용 = vCPU-시간($0.04048) + GB-시간($0.004445). 4vCPU/8GB → 1vCPU/2GB = 75% 절감. 현재 ~$1400/mo 중 $1050/mo 절감 가능."
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "scenario_id": "L2-014",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "lambda-function-oycs3i",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-fl3urm",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-158"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-63wtbt",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-v17j3o",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "platform",
+        "Env": "prod",
+        "CostCenter": "CC-327",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "lambda-function-jepj6c",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-670",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 5,
+    "tag_coverage_pct": 52.0,
+    "fully_compliant": 2,
+    "non_compliant": 3
+  }
+}

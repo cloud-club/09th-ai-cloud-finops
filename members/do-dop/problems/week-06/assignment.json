@@ -1,0 +1,16 @@
+{
+  "username": "do-dop",
+  "week": 6,
+  "level": "L2",
+  "seed": 168177659,
+  "scenarios": [
+    "L2-016",
+    "L2-022",
+    "L2-023"
+  ],
+  "company": "AppForge",
+  "active_generators": [
+    "business_metrics",
+    "tags_inventory"
+  ]
+}

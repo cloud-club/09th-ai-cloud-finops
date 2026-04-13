@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-021",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 1349.03,
+      "services": [
+        {
+          "service": "SQS",
+          "spend_usd": 157.9
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1346.61,
+      "services": [
+        {
+          "service": "SQS",
+          "spend_usd": 145.99
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1515.54,
+      "services": [
+        {
+          "service": "SQS",
+          "spend_usd": 126.39
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1463.24,
+      "services": [
+        {
+          "service": "SQS",
+          "spend_usd": 168.19
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1522.29,
+      "services": [
+        {
+          "service": "SQS",
+          "spend_usd": 175.53
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1407.32,
+      "services": [
+        {
+          "service": "SQS",
+          "spend_usd": 163.18
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1434.01,
+    "pricing_note": "SQS API 호출 $0.40/백만 건. 5큐 × 약 60M 빈 수신/월 = 300M 호출 → $120/월 낭비"
+  }
+}

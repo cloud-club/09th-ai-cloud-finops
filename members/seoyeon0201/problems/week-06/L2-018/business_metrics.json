@@ -1,0 +1,191 @@
+{
+  "scenario_id": "L2-018",
+  "period_days": 30,
+  "daily_metrics": [
+    {
+      "date": "2026-02-16",
+      "requests": 439816,
+      "orders": 4857,
+      "data_processed_gb": 163.94
+    },
+    {
+      "date": "2026-02-17",
+      "requests": 444330,
+      "orders": 5842,
+      "data_processed_gb": 163.31
+    },
+    {
+      "date": "2026-02-18",
+      "requests": 446409,
+      "orders": 5737,
+      "data_processed_gb": 180.5
+    },
+    {
+      "date": "2026-02-19",
+      "requests": 387853,
+      "orders": 6139,
+      "data_processed_gb": 193.64
+    },
+    {
+      "date": "2026-02-20",
+      "requests": 383158,
+      "orders": 5333,
+      "data_processed_gb": 197.76
+    },
+    {
+      "date": "2026-02-21",
+      "requests": 335699,
+      "orders": 4403,
+      "data_processed_gb": 149.18
+    },
+    {
+      "date": "2026-02-22",
+      "requests": 274450,
+      "orders": 3087,
+      "data_processed_gb": 110.93
+    },
+    {
+      "date": "2026-02-23",
+      "requests": 448627,
+      "orders": 5757,
+      "data_processed_gb": 189.82
+    },
+    {
+      "date": "2026-02-24",
+      "requests": 460216,
+      "orders": 4980,
+      "data_processed_gb": 172.63
+    },
+    {
+      "date": "2026-02-25",
+      "requests": 386757,
+      "orders": 6110,
+      "data_processed_gb": 170.49
+    },
+    {
+      "date": "2026-02-26",
+      "requests": 426276,
+      "orders": 6167,
+      "data_processed_gb": 186.33
+    },
+    {
+      "date": "2026-02-27",
+      "requests": 378737,
+      "orders": 5728,
+      "data_processed_gb": 176.7
+    },
+    {
+      "date": "2026-02-28",
+      "requests": 270434,
+      "orders": 3415,
+      "data_processed_gb": 100.48
+    },
+    {
+      "date": "2026-03-01",
+      "requests": 293411,
+      "orders": 3959,
+      "data_processed_gb": 112.09
+    },
+    {
+      "date": "2026-03-02",
+      "requests": 421676,
+      "orders": 5114,
+      "data_processed_gb": 172.44
+    },
+    {
+      "date": "2026-03-03",
+      "requests": 378912,
+      "orders": 5513,
+      "data_processed_gb": 168.22
+    },
+    {
+      "date": "2026-03-04",
+      "requests": 447937,
+      "orders": 5286,
+      "data_processed_gb": 197.65
+    },
+    {
+      "date": "2026-03-05",
+      "requests": 437770,
+      "orders": 5198,
+      "data_processed_gb": 191.82
+    },
+    {
+      "date": "2026-03-06",
+      "requests": 404099,
+      "orders": 5830,
+      "data_processed_gb": 193.42
+    },
+    {
+      "date": "2026-03-07",
+      "requests": 287648,
+      "orders": 3778,
+      "data_processed_gb": 108.74
+    },
+    {
+      "date": "2026-03-08",
+      "requests": 252803,
+      "orders": 3609,
+      "data_processed_gb": 104.46
+    },
+    {
+      "date": "2026-03-09",
+      "requests": 416455,
+      "orders": 5315,
+      "data_processed_gb": 190.16
+    },
+    {
+      "date": "2026-03-10",
+      "requests": 391292,
+      "orders": 5225,
+      "data_processed_gb": 182.79
+    },
+    {
+      "date": "2026-03-11",
+      "requests": 414421,
+      "orders": 5262,
+      "data_processed_gb": 177.01
+    },
+    {
+      "date": "2026-03-12",
+      "requests": 433336,
+      "orders": 5067,
+      "data_processed_gb": 188.04
+    },
+    {
+      "date": "2026-03-13",
+      "requests": 382027,
+      "orders": 5905,
+      "data_processed_gb": 173.35
+    },
+    {
+      "date": "2026-03-14",
+      "requests": 331031,
+      "orders": 4501,
+      "data_processed_gb": 152.29
+    },
+    {
+      "date": "2026-03-15",
+      "requests": 315545,
+      "orders": 4168,
+      "data_processed_gb": 116.41
+    },
+    {
+      "date": "2026-03-16",
+      "requests": 457727,
+      "orders": 5780,
+      "data_processed_gb": 191.29
+    },
+    {
+      "date": "2026-03-17",
+      "requests": 436328,
+      "orders": 5254,
+      "data_processed_gb": 186.14
+    }
+  ],
+  "current_unit_economics": {
+    "cost_per_order": 0.06,
+    "cost_per_1k_requests": 0.83,
+    "cost_to_revenue_pct": 0.11
+  }
+}

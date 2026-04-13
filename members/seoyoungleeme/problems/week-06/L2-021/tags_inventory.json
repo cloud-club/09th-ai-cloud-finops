@@ -1,0 +1,121 @@
+{
+  "scenario_id": "L2-021",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "sqs-queue-83ackx",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-ackuzr",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Service": "api"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-mwbrm2",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-hil4hg",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-mq58yd",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "sqs-queue-ouczyn",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "infra",
+        "Env": "prod",
+        "CostCenter": "CC-864",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "sqs-queue-gq175x",
+      "resource_type": "aws_sqs_queue",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-944",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 7,
+    "tag_coverage_pct": 42.9,
+    "fully_compliant": 2,
+    "non_compliant": 5
+  }
+}

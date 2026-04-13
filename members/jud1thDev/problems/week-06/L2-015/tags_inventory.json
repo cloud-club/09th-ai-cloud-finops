@@ -1,0 +1,62 @@
+{
+  "scenario_id": "L2-015",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "lambda-function-98yt4a",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-ezac3t",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-s8yjly",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "infra",
+        "Env": "prod",
+        "CostCenter": "CC-583",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 3,
+    "tag_coverage_pct": 46.7,
+    "fully_compliant": 1,
+    "non_compliant": 2
+  }
+}
