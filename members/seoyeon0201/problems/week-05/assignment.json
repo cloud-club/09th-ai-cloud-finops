@@ -1,0 +1,15 @@
+{
+  "username": "seoyeon0201",
+  "week": 5,
+  "level": "L2",
+  "seed": 132402613,
+  "scenarios": [
+    "L2-016",
+    "L2-018",
+    "L2-024"
+  ],
+  "company": "TaskHive",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

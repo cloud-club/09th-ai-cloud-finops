@@ -1,0 +1,15 @@
+{
+  "username": "PokingTeemo",
+  "week": 5,
+  "level": "L2",
+  "seed": 1372367575,
+  "scenarios": [
+    "L2-015",
+    "L2-020",
+    "L2-021"
+  ],
+  "company": "LedgerAI",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

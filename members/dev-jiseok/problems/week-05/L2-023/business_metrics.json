@@ -1,0 +1,191 @@
+{
+  "scenario_id": "L2-023",
+  "period_days": 30,
+  "daily_metrics": [
+    {
+      "date": "2026-02-16",
+      "requests": 232118,
+      "orders": 10546,
+      "data_processed_gb": 168.96
+    },
+    {
+      "date": "2026-02-17",
+      "requests": 252980,
+      "orders": 9442,
+      "data_processed_gb": 148.25
+    },
+    {
+      "date": "2026-02-18",
+      "requests": 252665,
+      "orders": 9586,
+      "data_processed_gb": 169.82
+    },
+    {
+      "date": "2026-02-19",
+      "requests": 240630,
+      "orders": 10712,
+      "data_processed_gb": 177.58
+    },
+    {
+      "date": "2026-02-20",
+      "requests": 235216,
+      "orders": 8491,
+      "data_processed_gb": 158.39
+    },
+    {
+      "date": "2026-02-21",
+      "requests": 152973,
+      "orders": 6668,
+      "data_processed_gb": 109.94
+    },
+    {
+      "date": "2026-02-22",
+      "requests": 190642,
+      "orders": 6711,
+      "data_processed_gb": 124.26
+    },
+    {
+      "date": "2026-02-23",
+      "requests": 240021,
+      "orders": 10413,
+      "data_processed_gb": 161.0
+    },
+    {
+      "date": "2026-02-24",
+      "requests": 267163,
+      "orders": 8527,
+      "data_processed_gb": 149.31
+    },
+    {
+      "date": "2026-02-25",
+      "requests": 229088,
+      "orders": 10706,
+      "data_processed_gb": 156.84
+    },
+    {
+      "date": "2026-02-26",
+      "requests": 241722,
+      "orders": 8991,
+      "data_processed_gb": 174.06
+    },
+    {
+      "date": "2026-02-27",
+      "requests": 243888,
+      "orders": 9743,
+      "data_processed_gb": 158.56
+    },
+    {
+      "date": "2026-02-28",
+      "requests": 138133,
+      "orders": 5590,
+      "data_processed_gb": 104.18
+    },
+    {
+      "date": "2026-03-01",
+      "requests": 156366,
+      "orders": 5806,
+      "data_processed_gb": 107.26
+    },
+    {
+      "date": "2026-03-02",
+      "requests": 245405,
+      "orders": 9087,
+      "data_processed_gb": 156.16
+    },
+    {
+      "date": "2026-03-03",
+      "requests": 265490,
+      "orders": 9372,
+      "data_processed_gb": 150.09
+    },
+    {
+      "date": "2026-03-04",
+      "requests": 233741,
+      "orders": 8960,
+      "data_processed_gb": 168.93
+    },
+    {
+      "date": "2026-03-05",
+      "requests": 229452,
+      "orders": 9725,
+      "data_processed_gb": 166.16
+    },
+    {
+      "date": "2026-03-06",
+      "requests": 265202,
+      "orders": 9985,
+      "data_processed_gb": 163.06
+    },
+    {
+      "date": "2026-03-07",
+      "requests": 191992,
+      "orders": 6612,
+      "data_processed_gb": 105.37
+    },
+    {
+      "date": "2026-03-08",
+      "requests": 166727,
+      "orders": 8009,
+      "data_processed_gb": 128.79
+    },
+    {
+      "date": "2026-03-09",
+      "requests": 251134,
+      "orders": 9185,
+      "data_processed_gb": 157.14
+    },
+    {
+      "date": "2026-03-10",
+      "requests": 237697,
+      "orders": 8241,
+      "data_processed_gb": 147.17
+    },
+    {
+      "date": "2026-03-11",
+      "requests": 267423,
+      "orders": 8659,
+      "data_processed_gb": 170.14
+    },
+    {
+      "date": "2026-03-12",
+      "requests": 247606,
+      "orders": 10659,
+      "data_processed_gb": 146.99
+    },
+    {
+      "date": "2026-03-13",
+      "requests": 224703,
+      "orders": 8175,
+      "data_processed_gb": 156.09
+    },
+    {
+      "date": "2026-03-14",
+      "requests": 144662,
+      "orders": 5493,
+      "data_processed_gb": 95.82
+    },
+    {
+      "date": "2026-03-15",
+      "requests": 169976,
+      "orders": 5676,
+      "data_processed_gb": 110.26
+    },
+    {
+      "date": "2026-03-16",
+      "requests": 231989,
+      "orders": 10132,
+      "data_processed_gb": 179.55
+    },
+    {
+      "date": "2026-03-17",
+      "requests": 233330,
+      "orders": 10954,
+      "data_processed_gb": 162.56
+    }
+  ],
+  "current_unit_economics": {
+    "cost_per_order": 0.0,
+    "cost_per_1k_requests": 0.14,
+    "cost_to_revenue_pct": 0.01
+  }
+}

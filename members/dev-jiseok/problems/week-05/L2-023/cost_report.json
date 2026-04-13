@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L2-023",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 1055.12,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 161.38
+        },
+        {
+          "service": "Athena",
+          "spend_usd": 893.74
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 963.2,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 163.04
+        },
+        {
+          "service": "Athena",
+          "spend_usd": 800.16
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1055.64,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 158.36
+        },
+        {
+          "service": "Athena",
+          "spend_usd": 897.28
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1077.11,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 123.21
+        },
+        {
+          "service": "Athena",
+          "spend_usd": 953.9
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 998.36,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 125.17
+        },
+        {
+          "service": "Athena",
+          "spend_usd": 873.19
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1051.14,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 157.7
+        },
+        {
+          "service": "Athena",
+          "spend_usd": 893.44
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1033.43,
+    "pricing_note": "S3 Standard $0.023/GB/월. 5TB 중 7일치(~210GB)만 필요 → 불필요 저장 ~4.9TB × $0.023 ≈ $115/월 낭비"
+  }
+}

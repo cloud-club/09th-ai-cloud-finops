@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L2-017",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 5612.19,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 299.44
+        },
+        {
+          "service": "Auto Scaling",
+          "spend_usd": 297.69
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 5659.26,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 232.07
+        },
+        {
+          "service": "Auto Scaling",
+          "spend_usd": 291.31
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 6272.32,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 272.59
+        },
+        {
+          "service": "Auto Scaling",
+          "spend_usd": 257.54
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 5628.39,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 283.27
+        },
+        {
+          "service": "Auto Scaling",
+          "spend_usd": 242.57
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 6332.74,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 262.68
+        },
+        {
+          "service": "Auto Scaling",
+          "spend_usd": 252.54
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 6277.23,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 252.57
+        },
+        {
+          "service": "Auto Scaling",
+          "spend_usd": 222.32
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 5963.69,
+    "pricing_note": "m5.xlarge = $0.192/hr. 평균 3개 불필요 인스턴스 × $0.192 × 730시간 = ~$420/mo 낭비."
+  }
+}

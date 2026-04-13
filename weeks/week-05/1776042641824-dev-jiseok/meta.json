@@ -1,0 +1,12 @@
+{
+  "id": "1776042641824-dev-jiseok",
+  "title": "Week 5 참고 자료 — L2: 단위경제 분석 + 오버프로비저닝 탐지",
+  "author": "dev-jiseok",
+  "date": "2026-04-13T16:50:41.824Z",
+  "week": "5",
+  "category": "note",
+  "description": "5주차 L2 문제 풀이 참고 자료 — Lambda/Fargate/ElastiCache/Kinesis/SQS 최적화 + 단위경제 분석",
+  "files": [
+    "study-materials.md"
+  ]
+}

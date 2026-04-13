@@ -1,0 +1,15 @@
+{
+  "username": "m1cks",
+  "week": 5,
+  "level": "L2",
+  "seed": 259103978,
+  "scenarios": [
+    "L2-015",
+    "L2-021",
+    "L2-022"
+  ],
+  "company": "FinCore",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "username": "dev-jiseok",
+  "week": 5,
+  "level": "L2",
+  "seed": 1991565602,
+  "scenarios": [
+    "L2-017",
+    "L2-018",
+    "L2-023"
+  ],
+  "company": "BroadNet",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

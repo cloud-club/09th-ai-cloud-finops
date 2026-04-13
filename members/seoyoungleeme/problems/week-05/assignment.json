@@ -1,0 +1,15 @@
+{
+  "username": "seoyoungleeme",
+  "week": 5,
+  "level": "L2",
+  "seed": 921983953,
+  "scenarios": [
+    "L2-016",
+    "L2-022",
+    "L2-024"
+  ],
+  "company": "AppForge",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

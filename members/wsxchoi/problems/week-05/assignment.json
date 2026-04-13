@@ -1,0 +1,15 @@
+{
+  "username": "wsxchoi",
+  "week": 5,
+  "level": "L2",
+  "seed": 2142521683,
+  "scenarios": [
+    "L2-016",
+    "L2-017",
+    "L2-022"
+  ],
+  "company": "PlayForge",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

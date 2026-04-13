@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-015",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 3588.58,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 401.78
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 3793.48,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 489.2
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 3504.75,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 475.27
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 3487.89,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 449.1
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 4040.91,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 535.65
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 3488.17,
+      "services": [
+        {
+          "service": "Lambda",
+          "spend_usd": 366.55
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 3650.63,
+    "pricing_note": "에러 시 900초 × 1024MB = 900 GB-초/호출. 하루 50000 × 2% = 1000 에러 호출 × 900 GB-초. 타임아웃을 10초로 줄이면 에러 비용 99% 절감. 함수당 약 $180/mo (2 함수 합계 $360/mo)."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "username": "do-dop",
+  "week": 5,
+  "level": "L2",
+  "seed": 946389617,
+  "scenarios": [
+    "L2-016",
+    "L2-018",
+    "L2-019"
+  ],
+  "company": "CareFlow",
+  "active_generators": [
+    "business_metrics"
+  ]
+}

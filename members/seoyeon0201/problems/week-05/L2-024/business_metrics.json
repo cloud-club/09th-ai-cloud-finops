@@ -1,0 +1,191 @@
+{
+  "scenario_id": "L2-024",
+  "period_days": 30,
+  "daily_metrics": [
+    {
+      "date": "2026-02-16",
+      "requests": 312452,
+      "orders": 11508,
+      "data_processed_gb": 149.08
+    },
+    {
+      "date": "2026-02-17",
+      "requests": 295029,
+      "orders": 13242,
+      "data_processed_gb": 132.83
+    },
+    {
+      "date": "2026-02-18",
+      "requests": 265642,
+      "orders": 12091,
+      "data_processed_gb": 145.37
+    },
+    {
+      "date": "2026-02-19",
+      "requests": 306581,
+      "orders": 13114,
+      "data_processed_gb": 145.07
+    },
+    {
+      "date": "2026-02-20",
+      "requests": 284138,
+      "orders": 11754,
+      "data_processed_gb": 147.89
+    },
+    {
+      "date": "2026-02-21",
+      "requests": 232472,
+      "orders": 8926,
+      "data_processed_gb": 107.83
+    },
+    {
+      "date": "2026-02-22",
+      "requests": 212713,
+      "orders": 8450,
+      "data_processed_gb": 102.37
+    },
+    {
+      "date": "2026-02-23",
+      "requests": 280241,
+      "orders": 11826,
+      "data_processed_gb": 146.03
+    },
+    {
+      "date": "2026-02-24",
+      "requests": 305806,
+      "orders": 12425,
+      "data_processed_gb": 148.21
+    },
+    {
+      "date": "2026-02-25",
+      "requests": 264300,
+      "orders": 13466,
+      "data_processed_gb": 125.81
+    },
+    {
+      "date": "2026-02-26",
+      "requests": 292309,
+      "orders": 12286,
+      "data_processed_gb": 147.71
+    },
+    {
+      "date": "2026-02-27",
+      "requests": 266791,
+      "orders": 12205,
+      "data_processed_gb": 127.92
+    },
+    {
+      "date": "2026-02-28",
+      "requests": 194227,
+      "orders": 8359,
+      "data_processed_gb": 101.79
+    },
+    {
+      "date": "2026-03-01",
+      "requests": 177275,
+      "orders": 8310,
+      "data_processed_gb": 94.13
+    },
+    {
+      "date": "2026-03-02",
+      "requests": 309561,
+      "orders": 13499,
+      "data_processed_gb": 128.71
+    },
+    {
+      "date": "2026-03-03",
+      "requests": 283705,
+      "orders": 12246,
+      "data_processed_gb": 139.5
+    },
+    {
+      "date": "2026-03-04",
+      "requests": 285625,
+      "orders": 13252,
+      "data_processed_gb": 146.96
+    },
+    {
+      "date": "2026-03-05",
+      "requests": 258536,
+      "orders": 11629,
+      "data_processed_gb": 122.98
+    },
+    {
+      "date": "2026-03-06",
+      "requests": 280341,
+      "orders": 11556,
+      "data_processed_gb": 137.26
+    },
+    {
+      "date": "2026-03-07",
+      "requests": 203234,
+      "orders": 9657,
+      "data_processed_gb": 94.35
+    },
+    {
+      "date": "2026-03-08",
+      "requests": 220790,
+      "orders": 8295,
+      "data_processed_gb": 105.39
+    },
+    {
+      "date": "2026-03-09",
+      "requests": 276051,
+      "orders": 11250,
+      "data_processed_gb": 125.32
+    },
+    {
+      "date": "2026-03-10",
+      "requests": 257844,
+      "orders": 13081,
+      "data_processed_gb": 139.91
+    },
+    {
+      "date": "2026-03-11",
+      "requests": 296405,
+      "orders": 11214,
+      "data_processed_gb": 132.47
+    },
+    {
+      "date": "2026-03-12",
+      "requests": 280208,
+      "orders": 12478,
+      "data_processed_gb": 124.31
+    },
+    {
+      "date": "2026-03-13",
+      "requests": 295628,
+      "orders": 12452,
+      "data_processed_gb": 141.31
+    },
+    {
+      "date": "2026-03-14",
+      "requests": 233530,
+      "orders": 10031,
+      "data_processed_gb": 113.98
+    },
+    {
+      "date": "2026-03-15",
+      "requests": 212783,
+      "orders": 8331,
+      "data_processed_gb": 93.39
+    },
+    {
+      "date": "2026-03-16",
+      "requests": 298210,
+      "orders": 10118,
+      "data_processed_gb": 138.07
+    },
+    {
+      "date": "2026-03-17",
+      "requests": 286590,
+      "orders": 10573,
+      "data_processed_gb": 139.79
+    }
+  ],
+  "current_unit_economics": {
+    "cost_per_order": 0.0,
+    "cost_per_1k_requests": 0.2,
+    "cost_to_revenue_pct": 0.01
+  }
+}

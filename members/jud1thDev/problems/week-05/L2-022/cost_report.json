@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-022",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 3067.11,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 423.78
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 3168.01,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 604.71
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 3379.11,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 573.21
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 3577.95,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 634.12
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 3512.13,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 540.12
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 3561.71,
+      "services": [
+        {
+          "service": "Kinesis",
+          "spend_usd": 653.67
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 3377.67,
+    "pricing_note": "Enhanced Fan-Out 추가비용: 샤드시간 $0.015 × 20샤드 × 730h = $219 + 데이터 검색 15TB × $0.013/GB = $195 + 컨슈머 시간 = $437/월"
+  }
+}

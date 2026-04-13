@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-020",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 14725.72,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 1239.91
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 12915.27,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 1175.57
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 14625.6,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 1480.51
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 14098.56,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 1138.1
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 13761.2,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 1142.45
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 13823.09,
+      "services": [
+        {
+          "service": "RDS",
+          "spend_usd": 1415.92
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 13991.57,
+    "pricing_note": "db.r5.xlarge = $0.48/hr. 미사용 Replica 3개 × $0.48 × 730시간 = ~$1051/mo. Replica 삭제 또는 앱에서 Reader Endpoint 사용 설정."
+  }
+}

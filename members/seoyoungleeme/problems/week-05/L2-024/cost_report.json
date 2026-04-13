@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L2-024",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 983.46,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 154.32
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1046.8,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 145.74
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1012.92,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 134.79
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 996.54,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 170.13
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1027.72,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 117.79
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1043.84,
+      "services": [
+        {
+          "service": "CloudWatch",
+          "spend_usd": 135.3
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1018.55,
+    "pricing_note": "High Resolution $0.90/메트릭/월, Standard $0.30/메트릭/월. 불필요 190개 × ($0.90 - $0.30) = $114 + PutMetricData API 추가 호출 비용 ≈ $120/월"
+  }
+}

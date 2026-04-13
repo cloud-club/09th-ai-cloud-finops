@@ -1,0 +1,15 @@
+{
+  "username": "jud1thDev",
+  "week": 5,
+  "level": "L2",
+  "seed": 1641298628,
+  "scenarios": [
+    "L2-021",
+    "L2-022",
+    "L2-024"
+  ],
+  "company": "ClassForge",
+  "active_generators": [
+    "business_metrics"
+  ]
+}
