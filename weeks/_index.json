@@ -216,5 +216,17 @@
     "files": [
       "study-materials.md"
     ]
+  },
+  {
+    "id": "1776761328802-wsxchoi",
+    "title": "Terraform으로 Lambda Power Tuning 자동화하기",
+    "author": "wsxchoi",
+    "date": "2026-04-21T08:48:48.802Z",
+    "week": "6",
+    "category": "note",
+    "description": "",
+    "files": [
+      "study-materials.md"
+    ]
   }
 ]
