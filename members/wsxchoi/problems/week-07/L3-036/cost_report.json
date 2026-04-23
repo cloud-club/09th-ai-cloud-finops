@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L3-036",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 8242.49,
+      "services": [
+        {
+          "service": "Redshift",
+          "spend_usd": 976.2
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 7900.56,
+      "services": [
+        {
+          "service": "Redshift",
+          "spend_usd": 1083.2
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 7782.24,
+      "services": [
+        {
+          "service": "Redshift",
+          "spend_usd": 824.46
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 7728.02,
+      "services": [
+        {
+          "service": "Redshift",
+          "spend_usd": 910.13
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 7830.51,
+      "services": [
+        {
+          "service": "Redshift",
+          "spend_usd": 875.99
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 8753.69,
+      "services": [
+        {
+          "service": "Redshift",
+          "spend_usd": 890.77
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 8039.59,
+    "pricing_note": "ra3.xlplus $0.382/hr per node. 4 nodes × $0.382 × 730 hrs = $1,115/mo total. 70% idle → $782/mo waste."
+  }
+}

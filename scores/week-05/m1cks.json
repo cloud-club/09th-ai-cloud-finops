@@ -1,0 +1,46 @@
+{
+  "username": "m1cks",
+  "week": 5,
+  "level": "L2",
+  "total": 260,
+  "max_total": 300,
+  "percentage": 87,
+  "scenarios": {
+    "L2-015": {
+      "total": 90,
+      "max_total": 100,
+      "percentage": 90,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 20,
+        "propose_solution": 25,
+        "estimate_savings": 15
+      },
+      "feedback": "우수. Lambda 타임아웃 900초→10초 정확히 식별. 6apyi7 메모리 과잉(1024→256MB)도 추가 발견. 단위경제 분석 포함. 절감액 $359.44는 정답 $360과 거의 일치."
+    },
+    "L2-021": {
+      "total": 88,
+      "max_total": 100,
+      "percentage": 88,
+      "scores": {
+        "identify_problem": 30,
+        "identify_root_cause": 20,
+        "propose_solution": 23,
+        "estimate_savings": 15
+      },
+      "feedback": "우수. Short Polling 5개 큐 정확히 식별, Long Polling 2개 올바르게 유지. receive_wait_time=20으로 변경. 2M empty receives/day 분석 포함. 절감액 $120 정답 일치."
+    },
+    "L2-022": {
+      "total": 82,
+      "max_total": 100,
+      "percentage": 82,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 22,
+        "estimate_savings": 14
+      },
+      "feedback": "좋음. 배치 처리(5분 간격)에 Enhanced Fan-Out 불필요 식별. EFO 비활성화 + 컨슈머 제거. decoy 스트림 올바르게 유지. 절감액 $437 정답 일치. 리포트에 pricing_note 교차 검증한 것이 좋음."
+    }
+  }
+}

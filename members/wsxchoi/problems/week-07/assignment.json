@@ -1,0 +1,18 @@
+{
+  "username": "wsxchoi",
+  "week": 7,
+  "level": "L3",
+  "seed": 1974120587,
+  "scenarios": [
+    "L3-036",
+    "L3-038"
+  ],
+  "company": "VitaData",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

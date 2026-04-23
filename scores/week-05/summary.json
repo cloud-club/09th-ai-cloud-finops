@@ -1,0 +1,28 @@
+{
+  "week": 5,
+  "level": "L2",
+  "graded_at": "2026-04-23",
+  "leaderboard": [
+    {
+      "rank": 1,
+      "username": "m1cks",
+      "total": 260,
+      "max_total": 300,
+      "percentage": 87
+    },
+    {
+      "rank": 2,
+      "username": "wsxchoi",
+      "total": 75,
+      "max_total": 100,
+      "percentage": 75
+    },
+    {
+      "rank": 3,
+      "username": "PokingTeemo",
+      "total": 60,
+      "max_total": 300,
+      "percentage": 20
+    }
+  ]
+}

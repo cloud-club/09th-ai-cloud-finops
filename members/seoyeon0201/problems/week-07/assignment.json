@@ -1,0 +1,18 @@
+{
+  "username": "seoyeon0201",
+  "week": 7,
+  "level": "L3",
+  "seed": 881761186,
+  "scenarios": [
+    "L3-027",
+    "L3-034"
+  ],
+  "company": "ViewCast",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

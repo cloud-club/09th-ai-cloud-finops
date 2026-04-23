@@ -1,0 +1,191 @@
+{
+  "scenario_id": "L3-034",
+  "period_days": 30,
+  "daily_metrics": [
+    {
+      "date": "2026-02-16",
+      "requests": 120303,
+      "orders": 3955,
+      "data_processed_gb": 159.09
+    },
+    {
+      "date": "2026-02-17",
+      "requests": 120430,
+      "orders": 3826,
+      "data_processed_gb": 159.62
+    },
+    {
+      "date": "2026-02-18",
+      "requests": 120695,
+      "orders": 4121,
+      "data_processed_gb": 134.07
+    },
+    {
+      "date": "2026-02-19",
+      "requests": 128421,
+      "orders": 4192,
+      "data_processed_gb": 140.23
+    },
+    {
+      "date": "2026-02-20",
+      "requests": 135684,
+      "orders": 4238,
+      "data_processed_gb": 136.27
+    },
+    {
+      "date": "2026-02-21",
+      "requests": 89497,
+      "orders": 2911,
+      "data_processed_gb": 103.84
+    },
+    {
+      "date": "2026-02-22",
+      "requests": 85160,
+      "orders": 2710,
+      "data_processed_gb": 94.82
+    },
+    {
+      "date": "2026-02-23",
+      "requests": 121830,
+      "orders": 4001,
+      "data_processed_gb": 161.56
+    },
+    {
+      "date": "2026-02-24",
+      "requests": 115909,
+      "orders": 4053,
+      "data_processed_gb": 144.85
+    },
+    {
+      "date": "2026-02-25",
+      "requests": 129384,
+      "orders": 4470,
+      "data_processed_gb": 139.14
+    },
+    {
+      "date": "2026-02-26",
+      "requests": 132361,
+      "orders": 3933,
+      "data_processed_gb": 136.49
+    },
+    {
+      "date": "2026-02-27",
+      "requests": 130464,
+      "orders": 4766,
+      "data_processed_gb": 140.97
+    },
+    {
+      "date": "2026-02-28",
+      "requests": 78646,
+      "orders": 2886,
+      "data_processed_gb": 90.16
+    },
+    {
+      "date": "2026-03-01",
+      "requests": 84251,
+      "orders": 3194,
+      "data_processed_gb": 101.99
+    },
+    {
+      "date": "2026-03-02",
+      "requests": 118710,
+      "orders": 4134,
+      "data_processed_gb": 152.16
+    },
+    {
+      "date": "2026-03-03",
+      "requests": 139063,
+      "orders": 3848,
+      "data_processed_gb": 138.15
+    },
+    {
+      "date": "2026-03-04",
+      "requests": 137434,
+      "orders": 4877,
+      "data_processed_gb": 142.84
+    },
+    {
+      "date": "2026-03-05",
+      "requests": 130782,
+      "orders": 4277,
+      "data_processed_gb": 135.58
+    },
+    {
+      "date": "2026-03-06",
+      "requests": 137907,
+      "orders": 4802,
+      "data_processed_gb": 136.12
+    },
+    {
+      "date": "2026-03-07",
+      "requests": 97871,
+      "orders": 3417,
+      "data_processed_gb": 123.08
+    },
+    {
+      "date": "2026-03-08",
+      "requests": 85608,
+      "orders": 3245,
+      "data_processed_gb": 104.85
+    },
+    {
+      "date": "2026-03-09",
+      "requests": 119725,
+      "orders": 4177,
+      "data_processed_gb": 161.3
+    },
+    {
+      "date": "2026-03-10",
+      "requests": 123793,
+      "orders": 3860,
+      "data_processed_gb": 154.66
+    },
+    {
+      "date": "2026-03-11",
+      "requests": 136732,
+      "orders": 3722,
+      "data_processed_gb": 162.03
+    },
+    {
+      "date": "2026-03-12",
+      "requests": 132094,
+      "orders": 4885,
+      "data_processed_gb": 154.6
+    },
+    {
+      "date": "2026-03-13",
+      "requests": 126440,
+      "orders": 4120,
+      "data_processed_gb": 158.44
+    },
+    {
+      "date": "2026-03-14",
+      "requests": 82665,
+      "orders": 2874,
+      "data_processed_gb": 92.41
+    },
+    {
+      "date": "2026-03-15",
+      "requests": 90159,
+      "orders": 2833,
+      "data_processed_gb": 115.83
+    },
+    {
+      "date": "2026-03-16",
+      "requests": 119184,
+      "orders": 4863,
+      "data_processed_gb": 137.9
+    },
+    {
+      "date": "2026-03-17",
+      "requests": 122337,
+      "orders": 4789,
+      "data_processed_gb": 134.73
+    }
+  ],
+  "current_unit_economics": {
+    "cost_per_order": 0.25,
+    "cost_per_1k_requests": 8.59,
+    "cost_to_revenue_pct": 0.32
+  }
+}

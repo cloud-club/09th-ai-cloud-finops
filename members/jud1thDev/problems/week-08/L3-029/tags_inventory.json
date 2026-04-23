@@ -1,0 +1,150 @@
+{
+  "scenario_id": "L3-029",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "instance-zyqkme",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-665"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-9j8ap2",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-2qw28l",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-3hlq3p",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-z9tilc",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "nat-gateway-8t15ht",
+      "resource_type": "aws_nat_gateway",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-x792zt",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-257",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-4ri01r",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-159",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "vpc-endpoint-j38sxm",
+      "resource_type": "aws_vpc_endpoint",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "devops",
+        "Env": "staging",
+        "CostCenter": "CC-366",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 9,
+    "tag_coverage_pct": 46.7,
+    "fully_compliant": 3,
+    "non_compliant": 6
+  }
+}

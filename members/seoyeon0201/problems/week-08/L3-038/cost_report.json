@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L3-038",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 34476.96,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 2429.62
+        },
+        {
+          "service": "EKS",
+          "spend_usd": 2155.28
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 34464.75,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 2011.23
+        },
+        {
+          "service": "EKS",
+          "spend_usd": 1722.3
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 36105.38,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 1957.46
+        },
+        {
+          "service": "EKS",
+          "spend_usd": 2270.97
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 33736.71,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 1988.31
+        },
+        {
+          "service": "EKS",
+          "spend_usd": 2019.17
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 32602.81,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 2211.83
+        },
+        {
+          "service": "EKS",
+          "spend_usd": 2248.22
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 33183.71,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 2303.27
+        },
+        {
+          "service": "EKS",
+          "spend_usd": 2271.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 34095.05,
+    "pricing_note": "m5.2xlarge $0.384/hr. 적정 노드 5개로 운영 가능하나 버퍼 포함 시 15개 초과 노드 × $0.384 × 730 ≈ $4,205. 안전 마진 감안 waste ~$3,360/mo."
+  }
+}

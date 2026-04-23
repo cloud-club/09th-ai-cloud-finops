@@ -1,0 +1,62 @@
+{
+  "scenario_id": "L3-030",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "vpn-connection-sts4yf",
+      "resource_type": "aws_vpn_connection",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "vpn-connection-noae5a",
+      "resource_type": "aws_vpn_connection",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-276"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "dx-connection-n98amp",
+      "resource_type": "aws_dx_connection",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "data",
+        "Env": "staging",
+        "CostCenter": "CC-106",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 3,
+    "tag_coverage_pct": 46.7,
+    "fully_compliant": 1,
+    "non_compliant": 2
+  }
+}

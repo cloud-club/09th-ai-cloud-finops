@@ -1,0 +1,46 @@
+{
+  "username": "PokingTeemo",
+  "week": 5,
+  "level": "L2",
+  "total": 60,
+  "max_total": 300,
+  "percentage": 20,
+  "scenarios": {
+    "L2-015": {
+      "total": 20,
+      "max_total": 100,
+      "percentage": 20,
+      "scores": {
+        "identify_problem": 5,
+        "identify_root_cause": 5,
+        "propose_solution": 5,
+        "estimate_savings": 5
+      },
+      "feedback": "심각한 오류: L2-015는 Lambda 타임아웃 과잉 문제인데 ASG warm-up 해결책을 제출. main.tf에 Lambda 함수가 있는데 ASG 솔루션을 작성함. 문제를 정확히 읽고 main.tf의 리소스 유형을 확인해야 함. 부분점수는 일반적인 FinOps 지식에 대해서만 부여."
+    },
+    "L2-020": {
+      "total": 20,
+      "max_total": 100,
+      "percentage": 20,
+      "scores": {
+        "identify_problem": 5,
+        "identify_root_cause": 5,
+        "propose_solution": 5,
+        "estimate_savings": 5
+      },
+      "feedback": "심각한 오류: L2-020은 RDS Read Replica 미사용 문제인데 Kinesis shard 축소 솔루션을 제출. main.tf에 RDS 인스턴스가 있음. 시나리오 ID와 실제 문제 파일을 정확히 매칭해야 함."
+    },
+    "L2-021": {
+      "total": 20,
+      "max_total": 100,
+      "percentage": 20,
+      "scores": {
+        "identify_problem": 5,
+        "identify_root_cause": 5,
+        "propose_solution": 5,
+        "estimate_savings": 5
+      },
+      "feedback": "심각한 오류: L2-021은 SQS Short Polling 문제인데 CloudWatch 메트릭 해상도 솔루션을 제출. main.tf에 SQS 큐가 있음. 3문제 모두 시나리오 불일치 — 문제 파일(main.tf)을 반드시 먼저 확인할 것."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "username": "m1cks",
+  "week": 7,
+  "level": "L3",
+  "seed": 1625519447,
+  "scenarios": [
+    "L3-032",
+    "L3-036"
+  ],
+  "company": "GameNova",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

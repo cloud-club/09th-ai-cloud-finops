@@ -1,0 +1,458 @@
+{
+  "scenario_id": "L3-032",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "instance-iy7f2t",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-b3wtca",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-683"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-a75ia3",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-t3alw3",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-g28frq",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-7q3rq8",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-295cqe",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-surc3p",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-por0ca",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-726udz",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-499"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-tlv46h",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-c78910",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-qlpsdj",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-9i2ptm",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-ntrzlq",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-mkxfci",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-dc0gj0",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-1xbor4",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-aork3q",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Team": "backend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-hlcyzt",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-ixm95p",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "backend",
+        "Env": "staging",
+        "CostCenter": "CC-530",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-7w8re6",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "data",
+        "Env": "prod",
+        "CostCenter": "CC-757",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-hikrqe",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-227",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-6zb6h7",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-659",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-mzsn9a",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-518",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-211h80",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "infra",
+        "Env": "dev",
+        "CostCenter": "CC-547",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-p0iorc",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-162",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-70womf",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-756",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-vqas9y",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "infra",
+        "Env": "staging",
+        "CostCenter": "CC-811",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "ec2-reserved-instances-ca1mxn",
+      "resource_type": "aws_ec2_reserved_instances",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "infra",
+        "Env": "prod",
+        "CostCenter": "CC-128",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 30,
+    "tag_coverage_pct": 46.7,
+    "fully_compliant": 10,
+    "non_compliant": 20
+  }
+}

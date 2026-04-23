@@ -1,0 +1,125 @@
+{
+  "scenario_id": "L3-035",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 71275.77,
+      "services": [
+        {
+          "service": "Athena",
+          "spend_usd": 5310.1
+        },
+        {
+          "service": "S3",
+          "spend_usd": 5491.41
+        },
+        {
+          "service": "Glue",
+          "spend_usd": 60474.26
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 72246.95,
+      "services": [
+        {
+          "service": "Athena",
+          "spend_usd": 3697.49
+        },
+        {
+          "service": "S3",
+          "spend_usd": 4725.48
+        },
+        {
+          "service": "Glue",
+          "spend_usd": 63823.98
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 75194.84,
+      "services": [
+        {
+          "service": "Athena",
+          "spend_usd": 3795.0
+        },
+        {
+          "service": "S3",
+          "spend_usd": 5050.42
+        },
+        {
+          "service": "Glue",
+          "spend_usd": 66349.42
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 76852.58,
+      "services": [
+        {
+          "service": "Athena",
+          "spend_usd": 4418.05
+        },
+        {
+          "service": "S3",
+          "spend_usd": 3876.33
+        },
+        {
+          "service": "Glue",
+          "spend_usd": 68558.2
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 74240.01,
+      "services": [
+        {
+          "service": "Athena",
+          "spend_usd": 5268.7
+        },
+        {
+          "service": "S3",
+          "spend_usd": 4140.38
+        },
+        {
+          "service": "Glue",
+          "spend_usd": 64830.93
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 78897.92,
+      "services": [
+        {
+          "service": "Athena",
+          "spend_usd": 5439.65
+        },
+        {
+          "service": "S3",
+          "spend_usd": 5031.72
+        },
+        {
+          "service": "Glue",
+          "spend_usd": 68426.55
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 74784.68,
+    "pricing_note": "Athena $5/TB scanned. 50 queries × 30 days × 10TB × $5 = $75,000 vs partitioned $750. Attributable waste ~$7,500/mo after caching and optimization adjustments."
+  }
+}

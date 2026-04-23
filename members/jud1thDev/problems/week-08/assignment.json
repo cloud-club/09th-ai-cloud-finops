@@ -1,0 +1,18 @@
+{
+  "username": "jud1thDev",
+  "week": 8,
+  "level": "L3",
+  "seed": 676538336,
+  "scenarios": [
+    "L3-029",
+    "L3-032"
+  ],
+  "company": "FlowOps",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

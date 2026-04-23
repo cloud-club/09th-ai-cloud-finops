@@ -1,0 +1,18 @@
+{
+  "username": "dev-jiseok",
+  "week": 7,
+  "level": "L3",
+  "seed": 2083162231,
+  "scenarios": [
+    "L3-026",
+    "L3-027"
+  ],
+  "company": "MoneyFlow",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

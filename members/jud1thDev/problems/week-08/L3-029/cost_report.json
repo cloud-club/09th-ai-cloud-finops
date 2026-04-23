@@ -1,0 +1,125 @@
+{
+  "scenario_id": "L3-029",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 4451.11,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 134.84
+        },
+        {
+          "service": "S3",
+          "spend_usd": 136.98
+        },
+        {
+          "service": "NAT Gateway",
+          "spend_usd": 124.7
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 4783.95,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 174.02
+        },
+        {
+          "service": "S3",
+          "spend_usd": 151.88
+        },
+        {
+          "service": "NAT Gateway",
+          "spend_usd": 147.82
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 4704.72,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 162.14
+        },
+        {
+          "service": "S3",
+          "spend_usd": 117.82
+        },
+        {
+          "service": "NAT Gateway",
+          "spend_usd": 148.58
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 4720.64,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 126.8
+        },
+        {
+          "service": "S3",
+          "spend_usd": 156.01
+        },
+        {
+          "service": "NAT Gateway",
+          "spend_usd": 121.26
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 4835.91,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 123.9
+        },
+        {
+          "service": "S3",
+          "spend_usd": 138.5
+        },
+        {
+          "service": "NAT Gateway",
+          "spend_usd": 174.62
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 5041.32,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 126.74
+        },
+        {
+          "service": "S3",
+          "spend_usd": 161.14
+        },
+        {
+          "service": "NAT Gateway",
+          "spend_usd": 121.21
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 4756.27,
+    "pricing_note": "NAT Gateway 처리 비용: 8TB x $0.045/GB = $360/월. S3 Gateway Endpoint 사용 시 NAT 처리 비용 전액 절감."
+  }
+}

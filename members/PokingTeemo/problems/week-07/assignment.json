@@ -1,0 +1,18 @@
+{
+  "username": "PokingTeemo",
+  "week": 7,
+  "level": "L3",
+  "seed": 1215821822,
+  "scenarios": [
+    "L3-029",
+    "L3-034"
+  ],
+  "company": "AppForge",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "scenario_id": "L3-027",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "vpc-endpoint-bj68by",
+      "resource_type": "aws_vpc_endpoint",
+      "is_problem": true,
+      "tags": {
+        "Team": "frontend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "vpc-endpoint-6ku3tx",
+      "resource_type": "aws_vpc_endpoint",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-268"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "vpc-endpoint-fjlu7q",
+      "resource_type": "aws_vpc_endpoint",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "backend",
+        "Env": "prod",
+        "CostCenter": "CC-593",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "vpc-endpoint-e41evu",
+      "resource_type": "aws_vpc_endpoint",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "platform",
+        "Env": "staging",
+        "CostCenter": "CC-406",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 4,
+    "tag_coverage_pct": 60.0,
+    "fully_compliant": 2,
+    "non_compliant": 2
+  }
+}

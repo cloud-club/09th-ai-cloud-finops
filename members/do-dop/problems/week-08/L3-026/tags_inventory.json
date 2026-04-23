@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L3-026",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "ec2-transit-gateway-bw4z4k",
+      "resource_type": "aws_ec2_transit_gateway",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-transit-gateway-vpc-attachment-6kc48m",
+      "resource_type": "aws_ec2_transit_gateway_vpc_attachment",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ec2-transit-gateway-vpc-attachment-l7u6w1",
+      "resource_type": "aws_ec2_transit_gateway_vpc_attachment",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "vpc-peering-connection-u6w0t0",
+      "resource_type": "aws_vpc_peering_connection",
+      "is_problem": false,
+      "tags": {
+        "Service": "auth",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-790",
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 4,
+    "tag_coverage_pct": 40.0,
+    "fully_compliant": 1,
+    "non_compliant": 3
+  }
+}

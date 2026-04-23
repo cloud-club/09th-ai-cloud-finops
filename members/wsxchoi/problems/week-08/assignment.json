@@ -1,0 +1,18 @@
+{
+  "username": "wsxchoi",
+  "week": 8,
+  "level": "L3",
+  "seed": 993025524,
+  "scenarios": [
+    "L3-026",
+    "L3-037"
+  ],
+  "company": "QuickMart",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "username": "seoyeon0201",
+  "week": 8,
+  "level": "L3",
+  "seed": 2102805053,
+  "scenarios": [
+    "L3-026",
+    "L3-038"
+  ],
+  "company": "ShopWave",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

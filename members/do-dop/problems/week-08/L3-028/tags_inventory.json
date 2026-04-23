@@ -1,0 +1,62 @@
+{
+  "scenario_id": "L3-028",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "lb-7eeywl",
+      "resource_type": "aws_lb",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lb-mxw5b4",
+      "resource_type": "aws_lb",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lb-merba2",
+      "resource_type": "aws_lb",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "data",
+        "Env": "dev",
+        "CostCenter": "CC-861",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 3,
+    "tag_coverage_pct": 46.7,
+    "fully_compliant": 1,
+    "non_compliant": 2
+  }
+}

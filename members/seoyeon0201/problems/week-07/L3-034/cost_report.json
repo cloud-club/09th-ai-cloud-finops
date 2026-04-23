@@ -1,0 +1,197 @@
+{
+  "scenario_id": "L3-034",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 23366.05,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 1119.13
+        },
+        {
+          "service": "RDS",
+          "spend_usd": 1013.71
+        },
+        {
+          "service": "S3",
+          "spend_usd": 1107.44
+        },
+        {
+          "service": "Lambda",
+          "spend_usd": 1007.36
+        },
+        {
+          "service": "Cost Explorer",
+          "spend_usd": 8957.53
+        },
+        {
+          "service": "Organizations",
+          "spend_usd": 10160.88
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 22238.33,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 899.42
+        },
+        {
+          "service": "RDS",
+          "spend_usd": 991.12
+        },
+        {
+          "service": "S3",
+          "spend_usd": 740.89
+        },
+        {
+          "service": "Lambda",
+          "spend_usd": 863.96
+        },
+        {
+          "service": "Cost Explorer",
+          "spend_usd": 5278.75
+        },
+        {
+          "service": "Organizations",
+          "spend_usd": 13464.19
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 23889.75,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 1035.89
+        },
+        {
+          "service": "RDS",
+          "spend_usd": 899.41
+        },
+        {
+          "service": "S3",
+          "spend_usd": 1005.37
+        },
+        {
+          "service": "Lambda",
+          "spend_usd": 974.19
+        },
+        {
+          "service": "Cost Explorer",
+          "spend_usd": 8518.12
+        },
+        {
+          "service": "Organizations",
+          "spend_usd": 11456.77
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 25859.27,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 1007.7
+        },
+        {
+          "service": "RDS",
+          "spend_usd": 1058.78
+        },
+        {
+          "service": "S3",
+          "spend_usd": 929.62
+        },
+        {
+          "service": "Lambda",
+          "spend_usd": 759.34
+        },
+        {
+          "service": "Cost Explorer",
+          "spend_usd": 9981.43
+        },
+        {
+          "service": "Organizations",
+          "spend_usd": 12122.4
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 22689.34,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 978.58
+        },
+        {
+          "service": "RDS",
+          "spend_usd": 1029.43
+        },
+        {
+          "service": "S3",
+          "spend_usd": 917.61
+        },
+        {
+          "service": "Lambda",
+          "spend_usd": 794.51
+        },
+        {
+          "service": "Cost Explorer",
+          "spend_usd": 7448.39
+        },
+        {
+          "service": "Organizations",
+          "spend_usd": 11520.82
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 24737.46,
+      "services": [
+        {
+          "service": "EC2",
+          "spend_usd": 1072.32
+        },
+        {
+          "service": "RDS",
+          "spend_usd": 1079.24
+        },
+        {
+          "service": "S3",
+          "spend_usd": 776.25
+        },
+        {
+          "service": "Lambda",
+          "spend_usd": 1099.23
+        },
+        {
+          "service": "Cost Explorer",
+          "spend_usd": 8418.05
+        },
+        {
+          "service": "Organizations",
+          "spend_usd": 12292.37
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 23796.7,
+    "pricing_note": "10개 계정 총 $15,000/mo. 개별 RI/SP 커버리지 평균 16%로 매우 낮음. Organizations 통합 시 RI/SP 풀링 + 볼륨 할인으로 20% 절감($3,000/mo) 가능."
+  }
+}

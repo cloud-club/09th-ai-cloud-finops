@@ -1,0 +1,182 @@
+{
+  "scenario_id": "L3-034",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "account-5sr559",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-xgc1ls",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Team": "devops"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-4dwi3q",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Team": "data"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-6xbfg6",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Service": "worker"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-4yh2uj",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-820"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-tejgew",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Service": "web"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-hxs96d",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-426"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-7d2j4e",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-grjdem",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Team": "backend"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "account-tgt2ge",
+      "resource_type": "aws_account",
+      "is_problem": true,
+      "tags": {
+        "Service": "auth"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "organization-bg5imo",
+      "resource_type": "aws_organization",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "infra",
+        "Env": "staging",
+        "CostCenter": "CC-283",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 11,
+    "tag_coverage_pct": 27.3,
+    "fully_compliant": 1,
+    "non_compliant": 10
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "scenario_id": "L3-036",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "redshift-cluster-z1bm1r",
+      "resource_type": "aws_redshift_cluster",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "redshift-cluster-cr3e6k",
+      "resource_type": "aws_redshift_cluster",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "backend",
+        "Env": "staging",
+        "CostCenter": "CC-136",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 2,
+    "tag_coverage_pct": 60.0,
+    "fully_compliant": 1,
+    "non_compliant": 1
+  }
+}

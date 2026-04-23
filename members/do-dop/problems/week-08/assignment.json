@@ -1,0 +1,18 @@
+{
+  "username": "do-dop",
+  "week": 8,
+  "level": "L3",
+  "seed": 262493642,
+  "scenarios": [
+    "L3-026",
+    "L3-028"
+  ],
+  "company": "FlexShop",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "scenario_id": "L3-027",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 2007.97,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 68.97
+        },
+        {
+          "service": "S3",
+          "spend_usd": 53.85
+        },
+        {
+          "service": "DynamoDB",
+          "spend_usd": 55.41
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1904.9,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 60.67
+        },
+        {
+          "service": "S3",
+          "spend_usd": 61.3
+        },
+        {
+          "service": "DynamoDB",
+          "spend_usd": 60.22
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1953.76,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 69.97
+        },
+        {
+          "service": "S3",
+          "spend_usd": 51.8
+        },
+        {
+          "service": "DynamoDB",
+          "spend_usd": 56.81
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1782.08,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 54.52
+        },
+        {
+          "service": "S3",
+          "spend_usd": 60.66
+        },
+        {
+          "service": "DynamoDB",
+          "spend_usd": 56.57
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1968.72,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 49.88
+        },
+        {
+          "service": "S3",
+          "spend_usd": 65.81
+        },
+        {
+          "service": "DynamoDB",
+          "spend_usd": 53.66
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1936.59,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 55.14
+        },
+        {
+          "service": "S3",
+          "spend_usd": 61.1
+        },
+        {
+          "service": "DynamoDB",
+          "spend_usd": 64.75
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1925.67,
+    "pricing_note": "Interface Endpoint 시간당 비용: 2 endpoints x 3 AZs x $0.01/hr x 730hr = $43.80. 데이터 처리 비용: 4,000GB x $0.01/GB = $40. 총 약 $84/월이지만 데이터 변동 포함 시 약 $144/월. Gateway Endpoint는 완전 무료."
+  }
+}

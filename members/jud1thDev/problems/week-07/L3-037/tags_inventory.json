@@ -1,0 +1,47 @@
+{
+  "scenario_id": "L3-037",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "s3-bucket-replication-configuration-bt2e7k",
+      "resource_type": "aws_s3_bucket_replication_configuration",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "s3-bucket-replication-configuration-9k6jy3",
+      "resource_type": "aws_s3_bucket_replication_configuration",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "devops",
+        "Env": "dev",
+        "CostCenter": "CC-508",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 2,
+    "tag_coverage_pct": 60.0,
+    "fully_compliant": 1,
+    "non_compliant": 1
+  }
+}

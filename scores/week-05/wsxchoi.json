@@ -1,0 +1,22 @@
+{
+  "username": "wsxchoi",
+  "week": 5,
+  "level": "L2",
+  "total": 75,
+  "max_total": 100,
+  "percentage": 75,
+  "scenarios": {
+    "L2-016": {
+      "total": 75,
+      "max_total": 100,
+      "percentage": 75,
+      "scores": {
+        "identify_problem": 28,
+        "identify_root_cause": 18,
+        "propose_solution": 18,
+        "estimate_savings": 11
+      },
+      "feedback": "양호. 10개 Fargate 서비스 과잉 프로비저닝 식별. 2vCPU/4GB로 다운사이징은 보수적 접근(정답은 1vCPU/2GB). under-provisioned 2개 서비스 발견은 좋은 보너스. 절감액 $655는 정답 $1,050 대비 과소 — 더 적극적인 라이트사이징 가능. 리소스별 리스크 평가 포함은 실전적."
+    }
+  }
+}

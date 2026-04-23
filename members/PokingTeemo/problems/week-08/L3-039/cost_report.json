@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L3-039",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 3743.53,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 190.57
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 171.6
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 3653.61,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 178.46
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 152.11
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 3667.37,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 162.06
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 150.38
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 3721.25,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 158.68
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 156.32
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 3676.87,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 142.93
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 141.05
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 4015.65,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 155.9
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 171.97
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 3746.38,
+    "pricing_note": "S3 직접 전송 5TB × $0.09/GB = $450/mo. CF 사용 시 캐시 60% 적중으로 오리진 2TB × $0.085/GB ≈ $170 + CF 전송 비용. 실효 절감 ~$270/mo."
+  }
+}

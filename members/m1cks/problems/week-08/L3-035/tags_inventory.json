@@ -1,0 +1,62 @@
+{
+  "scenario_id": "L3-035",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "glue-catalog-table-maq67x",
+      "resource_type": "aws_glue_catalog_table",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "s3-bucket-5jz4ui",
+      "resource_type": "aws_s3_bucket",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "glue-catalog-table-pyjqak",
+      "resource_type": "aws_glue_catalog_table",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-276",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 3,
+    "tag_coverage_pct": 46.7,
+    "fully_compliant": 1,
+    "non_compliant": 2
+  }
+}

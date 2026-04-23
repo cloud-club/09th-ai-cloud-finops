@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L3-030",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 560.16,
+      "services": [
+        {
+          "service": "VPN",
+          "spend_usd": 50.76
+        },
+        {
+          "service": "Direct Connect",
+          "spend_usd": 36.41
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 614.86,
+      "services": [
+        {
+          "service": "VPN",
+          "spend_usd": 49.5
+        },
+        {
+          "service": "Direct Connect",
+          "spend_usd": 39.43
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 591.07,
+      "services": [
+        {
+          "service": "VPN",
+          "spend_usd": 48.09
+        },
+        {
+          "service": "Direct Connect",
+          "spend_usd": 35.21
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 629.32,
+      "services": [
+        {
+          "service": "VPN",
+          "spend_usd": 51.9
+        },
+        {
+          "service": "Direct Connect",
+          "spend_usd": 44.95
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 646.25,
+      "services": [
+        {
+          "service": "VPN",
+          "spend_usd": 41.52
+        },
+        {
+          "service": "Direct Connect",
+          "spend_usd": 50.66
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 578.8,
+      "services": [
+        {
+          "service": "VPN",
+          "spend_usd": 44.49
+        },
+        {
+          "service": "Direct Connect",
+          "spend_usd": 46.86
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 603.41,
+    "pricing_note": "VPN Connection 시간당 비용: 2 connections x $0.05/hr x 730hr = $73/월. 트래픽이 0임에도 connection-hour 과금 지속."
+  }
+}

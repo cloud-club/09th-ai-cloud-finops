@@ -1,0 +1,22 @@
+{
+  "username": "PokingTeemo",
+  "week": 6,
+  "level": "L2",
+  "total": 72,
+  "max_total": 100,
+  "percentage": 72,
+  "scenarios": {
+    "L2-017": {
+      "total": 72,
+      "max_total": 100,
+      "percentage": 72,
+      "scores": {
+        "identify_problem": 25,
+        "identify_root_cause": 15,
+        "propose_solution": 20,
+        "estimate_savings": 12
+      },
+      "feedback": "이번에는 시나리오 매칭 정확! ASG warm-up 미설정(h128pu) 식별하고 default_instance_warmup=300 추가. decoy ASG(d89t0e, 이미 warmup=300) 올바르게 유지. m5.xlarge→m5.large 다운사이징은 문제 범위 초과지만 합리적. 절감액 $470은 정답 $420 대비 약간 과대. 태그 거버넌스 개선도 언급."
+    }
+  }
+}

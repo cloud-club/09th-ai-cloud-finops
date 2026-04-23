@@ -1,0 +1,191 @@
+{
+  "scenario_id": "L3-038",
+  "period_days": 30,
+  "daily_metrics": [
+    {
+      "date": "2026-02-16",
+      "requests": 275068,
+      "orders": 10465,
+      "data_processed_gb": 183.7
+    },
+    {
+      "date": "2026-02-17",
+      "requests": 242868,
+      "orders": 9871,
+      "data_processed_gb": 161.41
+    },
+    {
+      "date": "2026-02-18",
+      "requests": 250346,
+      "orders": 8944,
+      "data_processed_gb": 191.18
+    },
+    {
+      "date": "2026-02-19",
+      "requests": 242722,
+      "orders": 8510,
+      "data_processed_gb": 171.25
+    },
+    {
+      "date": "2026-02-20",
+      "requests": 238881,
+      "orders": 10441,
+      "data_processed_gb": 180.22
+    },
+    {
+      "date": "2026-02-21",
+      "requests": 206060,
+      "orders": 6817,
+      "data_processed_gb": 132.03
+    },
+    {
+      "date": "2026-02-22",
+      "requests": 175490,
+      "orders": 6508,
+      "data_processed_gb": 118.89
+    },
+    {
+      "date": "2026-02-23",
+      "requests": 259543,
+      "orders": 11208,
+      "data_processed_gb": 162.39
+    },
+    {
+      "date": "2026-02-24",
+      "requests": 245979,
+      "orders": 10269,
+      "data_processed_gb": 186.02
+    },
+    {
+      "date": "2026-02-25",
+      "requests": 270110,
+      "orders": 9081,
+      "data_processed_gb": 180.95
+    },
+    {
+      "date": "2026-02-26",
+      "requests": 278573,
+      "orders": 11305,
+      "data_processed_gb": 188.42
+    },
+    {
+      "date": "2026-02-27",
+      "requests": 238415,
+      "orders": 8518,
+      "data_processed_gb": 172.64
+    },
+    {
+      "date": "2026-02-28",
+      "requests": 181972,
+      "orders": 7900,
+      "data_processed_gb": 146.19
+    },
+    {
+      "date": "2026-03-01",
+      "requests": 157875,
+      "orders": 6756,
+      "data_processed_gb": 124.96
+    },
+    {
+      "date": "2026-03-02",
+      "requests": 265571,
+      "orders": 9700,
+      "data_processed_gb": 190.75
+    },
+    {
+      "date": "2026-03-03",
+      "requests": 253357,
+      "orders": 9514,
+      "data_processed_gb": 183.87
+    },
+    {
+      "date": "2026-03-04",
+      "requests": 231237,
+      "orders": 9943,
+      "data_processed_gb": 180.04
+    },
+    {
+      "date": "2026-03-05",
+      "requests": 265984,
+      "orders": 11275,
+      "data_processed_gb": 189.61
+    },
+    {
+      "date": "2026-03-06",
+      "requests": 261758,
+      "orders": 11164,
+      "data_processed_gb": 175.89
+    },
+    {
+      "date": "2026-03-07",
+      "requests": 157986,
+      "orders": 7150,
+      "data_processed_gb": 123.23
+    },
+    {
+      "date": "2026-03-08",
+      "requests": 152671,
+      "orders": 5713,
+      "data_processed_gb": 111.79
+    },
+    {
+      "date": "2026-03-09",
+      "requests": 246207,
+      "orders": 8576,
+      "data_processed_gb": 163.39
+    },
+    {
+      "date": "2026-03-10",
+      "requests": 272246,
+      "orders": 9894,
+      "data_processed_gb": 160.78
+    },
+    {
+      "date": "2026-03-11",
+      "requests": 240161,
+      "orders": 8464,
+      "data_processed_gb": 180.69
+    },
+    {
+      "date": "2026-03-12",
+      "requests": 232642,
+      "orders": 8544,
+      "data_processed_gb": 165.63
+    },
+    {
+      "date": "2026-03-13",
+      "requests": 239855,
+      "orders": 10661,
+      "data_processed_gb": 179.91
+    },
+    {
+      "date": "2026-03-14",
+      "requests": 182184,
+      "orders": 7076,
+      "data_processed_gb": 127.14
+    },
+    {
+      "date": "2026-03-15",
+      "requests": 165275,
+      "orders": 6574,
+      "data_processed_gb": 105.89
+    },
+    {
+      "date": "2026-03-16",
+      "requests": 251488,
+      "orders": 10930,
+      "data_processed_gb": 175.5
+    },
+    {
+      "date": "2026-03-17",
+      "requests": 249515,
+      "orders": 9425,
+      "data_processed_gb": 192.63
+    }
+  ],
+  "current_unit_economics": {
+    "cost_per_order": 0.15,
+    "cost_per_1k_requests": 5.69,
+    "cost_to_revenue_pct": 0.19
+  }
+}

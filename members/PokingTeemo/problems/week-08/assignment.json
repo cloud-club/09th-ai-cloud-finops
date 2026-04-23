@@ -1,0 +1,18 @@
+{
+  "username": "PokingTeemo",
+  "week": 8,
+  "level": "L3",
+  "seed": 9426379,
+  "scenarios": [
+    "L3-034",
+    "L3-039"
+  ],
+  "company": "MediaPlex",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

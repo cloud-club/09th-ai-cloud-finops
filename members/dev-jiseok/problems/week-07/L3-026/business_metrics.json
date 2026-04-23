@@ -1,0 +1,191 @@
+{
+  "scenario_id": "L3-026",
+  "period_days": 30,
+  "daily_metrics": [
+    {
+      "date": "2026-02-16",
+      "requests": 413899,
+      "orders": 15681,
+      "data_processed_gb": 167.25
+    },
+    {
+      "date": "2026-02-17",
+      "requests": 478195,
+      "orders": 15836,
+      "data_processed_gb": 145.07
+    },
+    {
+      "date": "2026-02-18",
+      "requests": 460011,
+      "orders": 15395,
+      "data_processed_gb": 163.57
+    },
+    {
+      "date": "2026-02-19",
+      "requests": 418076,
+      "orders": 14372,
+      "data_processed_gb": 155.41
+    },
+    {
+      "date": "2026-02-20",
+      "requests": 492099,
+      "orders": 15776,
+      "data_processed_gb": 153.16
+    },
+    {
+      "date": "2026-02-21",
+      "requests": 285709,
+      "orders": 8396,
+      "data_processed_gb": 101.4
+    },
+    {
+      "date": "2026-02-22",
+      "requests": 317453,
+      "orders": 12945,
+      "data_processed_gb": 126.24
+    },
+    {
+      "date": "2026-02-23",
+      "requests": 495031,
+      "orders": 13124,
+      "data_processed_gb": 162.98
+    },
+    {
+      "date": "2026-02-24",
+      "requests": 428089,
+      "orders": 15978,
+      "data_processed_gb": 157.33
+    },
+    {
+      "date": "2026-02-25",
+      "requests": 439959,
+      "orders": 16338,
+      "data_processed_gb": 145.18
+    },
+    {
+      "date": "2026-02-26",
+      "requests": 460740,
+      "orders": 12973,
+      "data_processed_gb": 153.31
+    },
+    {
+      "date": "2026-02-27",
+      "requests": 468532,
+      "orders": 16591,
+      "data_processed_gb": 169.23
+    },
+    {
+      "date": "2026-02-28",
+      "requests": 316414,
+      "orders": 9576,
+      "data_processed_gb": 112.77
+    },
+    {
+      "date": "2026-03-01",
+      "requests": 266565,
+      "orders": 9955,
+      "data_processed_gb": 86.86
+    },
+    {
+      "date": "2026-03-02",
+      "requests": 426026,
+      "orders": 16468,
+      "data_processed_gb": 146.12
+    },
+    {
+      "date": "2026-03-03",
+      "requests": 477863,
+      "orders": 13813,
+      "data_processed_gb": 164.07
+    },
+    {
+      "date": "2026-03-04",
+      "requests": 476702,
+      "orders": 13291,
+      "data_processed_gb": 168.62
+    },
+    {
+      "date": "2026-03-05",
+      "requests": 460327,
+      "orders": 15236,
+      "data_processed_gb": 152.13
+    },
+    {
+      "date": "2026-03-06",
+      "requests": 469561,
+      "orders": 14695,
+      "data_processed_gb": 163.83
+    },
+    {
+      "date": "2026-03-07",
+      "requests": 307266,
+      "orders": 8285,
+      "data_processed_gb": 104.33
+    },
+    {
+      "date": "2026-03-08",
+      "requests": 289546,
+      "orders": 10317,
+      "data_processed_gb": 109.46
+    },
+    {
+      "date": "2026-03-09",
+      "requests": 498678,
+      "orders": 16503,
+      "data_processed_gb": 168.33
+    },
+    {
+      "date": "2026-03-10",
+      "requests": 466544,
+      "orders": 13447,
+      "data_processed_gb": 150.61
+    },
+    {
+      "date": "2026-03-11",
+      "requests": 441606,
+      "orders": 13916,
+      "data_processed_gb": 156.63
+    },
+    {
+      "date": "2026-03-12",
+      "requests": 466986,
+      "orders": 14789,
+      "data_processed_gb": 145.32
+    },
+    {
+      "date": "2026-03-13",
+      "requests": 424492,
+      "orders": 16710,
+      "data_processed_gb": 170.26
+    },
+    {
+      "date": "2026-03-14",
+      "requests": 295879,
+      "orders": 10030,
+      "data_processed_gb": 101.22
+    },
+    {
+      "date": "2026-03-15",
+      "requests": 300568,
+      "orders": 8898,
+      "data_processed_gb": 91.58
+    },
+    {
+      "date": "2026-03-16",
+      "requests": 424086,
+      "orders": 14637,
+      "data_processed_gb": 162.3
+    },
+    {
+      "date": "2026-03-17",
+      "requests": 474253,
+      "orders": 14447,
+      "data_processed_gb": 149.12
+    }
+  ],
+  "current_unit_economics": {
+    "cost_per_order": 0.0,
+    "cost_per_1k_requests": 0.13,
+    "cost_to_revenue_pct": 0.0
+  }
+}

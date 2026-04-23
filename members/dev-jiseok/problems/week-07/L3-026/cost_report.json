@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L3-026",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 1543.77,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 118.59
+        },
+        {
+          "service": "Transit Gateway",
+          "spend_usd": 115.5
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 1397.85,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 101.55
+        },
+        {
+          "service": "Transit Gateway",
+          "spend_usd": 149.32
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 1377.46,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 110.37
+        },
+        {
+          "service": "Transit Gateway",
+          "spend_usd": 146.71
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 1527.96,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 104.57
+        },
+        {
+          "service": "Transit Gateway",
+          "spend_usd": 132.87
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 1361.55,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 112.52
+        },
+        {
+          "service": "Transit Gateway",
+          "spend_usd": 129.59
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 1359.37,
+      "services": [
+        {
+          "service": "VPC",
+          "spend_usd": 134.82
+        },
+        {
+          "service": "Transit Gateway",
+          "spend_usd": 144.68
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 1427.99,
+    "pricing_note": "Transit Gateway 데이터 처리: 10TB x $0.02/GB = $200/월. VPC Peering으로 전환 시 같은 AZ 내 전송은 무료."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "username": "jud1thDev",
+  "week": 7,
+  "level": "L3",
+  "seed": 733939377,
+  "scenarios": [
+    "L3-036",
+    "L3-037"
+  ],
+  "company": "MedCloud",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

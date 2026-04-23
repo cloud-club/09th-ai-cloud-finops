@@ -1,0 +1,101 @@
+{
+  "scenario_id": "L3-039",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 3507.57,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 189.04
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 153.88
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 3220.01,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 187.17
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 188.63
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 3211.76,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 143.08
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 169.04
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 3642.39,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 186.25
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 190.03
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 3400.92,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 149.19
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 189.56
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 3353.08,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 154.76
+        },
+        {
+          "service": "CloudFront",
+          "spend_usd": 157.28
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 3389.29,
+    "pricing_note": "S3 직접 전송 5TB × $0.09/GB = $450/mo. CF 사용 시 캐시 60% 적중으로 오리진 2TB × $0.085/GB ≈ $170 + CF 전송 비용. 실효 절감 ~$270/mo."
+  }
+}

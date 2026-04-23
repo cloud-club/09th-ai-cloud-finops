@@ -1,0 +1,398 @@
+{
+  "scenario_id": "L3-033",
+  "standard_tags": [
+    "Service",
+    "Team",
+    "Env",
+    "CostCenter",
+    "Owner"
+  ],
+  "resources": [
+    {
+      "resource_name": "instance-p0ly23",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-m0cr2l",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Team": "platform"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-4lg2j9",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-316"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-mcjf4f",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-mmb70v",
+      "resource_type": "aws_instance",
+      "is_problem": true,
+      "tags": {
+        "Owner": "devops@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-ye68wm",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-8ombjg",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-xyoahp",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Env": "prod"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-b2dob1",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-593"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-kgxith",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Team": "infra"
+      },
+      "missing_tags": [
+        "Service",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-8wbhsx",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Env": "dev"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-0700nd",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "CostCenter"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "lambda-function-wz6d29",
+      "resource_type": "aws_lambda_function",
+      "is_problem": true,
+      "tags": {
+        "Env": "staging"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-zutx0g",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-830"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-befiqh",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "CostCenter": "CC-891"
+      },
+      "missing_tags": [
+        "Service",
+        "Team",
+        "Env",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "ecs-service-mp4b62",
+      "resource_type": "aws_ecs_service",
+      "is_problem": true,
+      "tags": {
+        "Service": "search"
+      },
+      "missing_tags": [
+        "Team",
+        "Env",
+        "CostCenter",
+        "Owner"
+      ],
+      "compliance_pct": 20.0
+    },
+    {
+      "resource_name": "instance-vkew8v",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-289",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-nfuysm",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "backend",
+        "Env": "staging",
+        "CostCenter": "CC-596",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-g6jls4",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "frontend",
+        "Env": "dev",
+        "CostCenter": "CC-599",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-nea9fy",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "worker",
+        "Team": "backend",
+        "Env": "staging",
+        "CostCenter": "CC-490",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-jb9vgj",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "infra",
+        "Env": "prod",
+        "CostCenter": "CC-775",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "instance-3cmvg9",
+      "resource_type": "aws_instance",
+      "is_problem": false,
+      "tags": {
+        "Service": "data-pipeline",
+        "Team": "backend",
+        "Env": "staging",
+        "CostCenter": "CC-197",
+        "Owner": "bob@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "lambda-function-33scw3",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "infra",
+        "Env": "staging",
+        "CostCenter": "CC-979",
+        "Owner": "alice@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "lambda-function-6oovl7",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "search",
+        "Team": "frontend",
+        "Env": "prod",
+        "CostCenter": "CC-250",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "lambda-function-iodxxg",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "api",
+        "Team": "backend",
+        "Env": "dev",
+        "CostCenter": "CC-502",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    },
+    {
+      "resource_name": "lambda-function-b6ywa6",
+      "resource_type": "aws_lambda_function",
+      "is_problem": false,
+      "tags": {
+        "Service": "web",
+        "Team": "frontend",
+        "Env": "staging",
+        "CostCenter": "CC-854",
+        "Owner": "charlie@example.com"
+      },
+      "missing_tags": [],
+      "compliance_pct": 100.0
+    }
+  ],
+  "summary": {
+    "total_resources": 26,
+    "tag_coverage_pct": 50.8,
+    "fully_compliant": 10,
+    "non_compliant": 16
+  }
+}

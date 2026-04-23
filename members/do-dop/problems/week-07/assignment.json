@@ -1,0 +1,18 @@
+{
+  "username": "do-dop",
+  "week": 7,
+  "level": "L3",
+  "seed": 932006708,
+  "scenarios": [
+    "L3-036",
+    "L3-037"
+  ],
+  "company": "DeliverAI",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

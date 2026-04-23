@@ -1,0 +1,50 @@
+{
+  "scenario_id": "L3-036",
+  "coverage_summary": {
+    "ri_coverage_pct": 6.5,
+    "sp_coverage_pct": 14.2,
+    "on_demand_pct": 79.3,
+    "total_monthly_compute_spend": 9560.41
+  },
+  "reservations": [
+    {
+      "type": "Convertible RI",
+      "instance_type": "t3.medium",
+      "term": "1yr",
+      "count": 4,
+      "utilization_pct": 88.0,
+      "monthly_cost_usd": 143.99
+    },
+    {
+      "type": "Standard RI",
+      "instance_type": "m5.large",
+      "term": "3yr",
+      "count": 2,
+      "utilization_pct": 88.2,
+      "monthly_cost_usd": 133.56
+    },
+    {
+      "type": "Compute Savings Plan",
+      "instance_type": "t3.medium",
+      "term": "1yr",
+      "count": 1,
+      "utilization_pct": 72.8,
+      "monthly_cost_usd": 123.39
+    }
+  ],
+  "on_demand_spend_pct": 79.3,
+  "potential_savings": {
+    "with_1yr_ri": {
+      "savings_pct": 41.6,
+      "monthly_savings_usd": 3156.81
+    },
+    "with_1yr_sp": {
+      "savings_pct": 24.3,
+      "monthly_savings_usd": 1843.0
+    },
+    "with_3yr_ri": {
+      "savings_pct": 58.3,
+      "monthly_savings_usd": 4419.54
+    }
+  }
+}

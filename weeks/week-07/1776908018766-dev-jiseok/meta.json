@@ -1,0 +1,12 @@
+{
+  "id": "1776908018766-dev-jiseok",
+  "title": "Week 7 참고 자료 — L3: RI/SP 최적화 + 네트워크 비용 + 이상탐지",
+  "author": "dev-jiseok",
+  "date": "2026-04-23T09:13:38.766Z",
+  "week": "7",
+  "category": "note",
+  "description": "7주차 L3 참고 자료 — RI/SP 최적화, NAT/VPC 네트워크 비용, CUR 분석, 알림 생성",
+  "files": [
+    "study-materials.md"
+  ]
+}

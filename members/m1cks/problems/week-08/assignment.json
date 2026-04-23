@@ -1,0 +1,18 @@
+{
+  "username": "m1cks",
+  "week": 8,
+  "level": "L3",
+  "seed": 1504970759,
+  "scenarios": [
+    "L3-035",
+    "L3-039"
+  ],
+  "company": "HealthSync",
+  "active_generators": [
+    "business_metrics",
+    "cloudwatch_format",
+    "cur_report",
+    "ri_sp_coverage",
+    "tags_inventory"
+  ]
+}

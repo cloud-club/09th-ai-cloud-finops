@@ -1,0 +1,77 @@
+{
+  "scenario_id": "L3-037",
+  "currency": "USD",
+  "period_months": 6,
+  "monthly_data": [
+    {
+      "month_offset": 5,
+      "label": "M-5",
+      "total_spend_usd": 4638.71,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 496.05
+        }
+      ]
+    },
+    {
+      "month_offset": 4,
+      "label": "M-4",
+      "total_spend_usd": 4784.53,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 488.47
+        }
+      ]
+    },
+    {
+      "month_offset": 3,
+      "label": "M-3",
+      "total_spend_usd": 4871.19,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 411.69
+        }
+      ]
+    },
+    {
+      "month_offset": 2,
+      "label": "M-2",
+      "total_spend_usd": 4940.71,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 538.25
+        }
+      ]
+    },
+    {
+      "month_offset": 1,
+      "label": "M-1",
+      "total_spend_usd": 4694.14,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 435.84
+        }
+      ]
+    },
+    {
+      "month_offset": 0,
+      "label": "M-0",
+      "total_spend_usd": 4636.06,
+      "services": [
+        {
+          "service": "S3",
+          "spend_usd": 465.77
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "avg_monthly_total": 4760.89,
+    "pricing_note": "불필요 복제 16TB × $0.023/GB/mo (S3 Standard us-west-2) = $368/mo. 추가로 CRR 데이터 전송 비용과 PUT 요청 비용도 발생."
+  }
+}
